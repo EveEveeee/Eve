@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">杨慢慢 / MANMAN BUILDS</title>
+  <desc id="desc">Think slowly. Build clearly.</desc>
+  <rect width="1280" height="320" fill="#F4F2ED"/>
+  <rect x="28" y="28" width="1224" height="264" fill="none" stroke="#1D1D1B" stroke-width="1"/>
+
+  <text x="62" y="72" fill="#73716C" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" letter-spacing="3">MANMAN BUILDS / 2026</text>
+  <text x="60" y="168" fill="#1D1D1B" font-family="Songti SC, STSong, serif" font-size="76" font-weight="600">杨慢慢</text>
+  <text x="64" y="215" fill="#1D1D1B" font-family="Helvetica Neue, Arial, sans-serif" font-size="17" letter-spacing="2">AI PRODUCT MANAGER · CREATOR</text>
+  <text x="64" y="262" fill="#73716C" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17">慢.说AI</text>
+
+  <line x1="705" y1="60" x2="705" y2="260" stroke="#C9C6BE" stroke-width="1"/>
+  <circle cx="743" cy="69" r="5" fill="#B33A2E"/>
+  <text x="742" y="142" fill="#1D1D1B" font-family="Georgia, Times New Roman, serif" font-size="42" font-style="italic">Think slowly.</text>
+  <text x="742" y="198" fill="#1D1D1B" font-family="Georgia, Times New Roman, serif" font-size="42" font-style="italic">Build clearly.</text>
+  <text x="745" y="246" fill="#73716C" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16">慢慢想清楚，再把它做出来。</text>
+</svg>
