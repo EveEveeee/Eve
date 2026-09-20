@@ -1,52 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title description">
-  <title id="title">杨慢慢 · 产品构建日志</title>
-  <desc id="description">以简洁的终端窗口记录杨慢慢的 AI 产品思考与实践</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+  <title id="title">Eve OS — AI Product Manager</title>
+  <desc id="desc">A light terminal introducing Eve's product thinking, AI experiments, and open-source contributions.</desc>
   <style>
-    .mono { font-family: SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-    .sans { font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif; }
-    .ink { fill: #25332f; }
-    .muted { fill: #69756f; }
-    .accent { fill: #426b5d; }
-    .rule { stroke: #d9ded7; stroke-width: 1; }
-    .log { opacity: .76; animation: emphasis 9s ease-in-out infinite; }
-    .one { animation-delay: .15s; }
-    .two { animation-delay: .65s; }
-    .three { animation-delay: 1.15s; }
-    .four { animation-delay: 1.65s; }
-    .five { animation-delay: 2.15s; }
-    .six { animation-delay: 2.65s; }
-    .cursor { animation: blink 1s steps(1) infinite; }
-    @keyframes emphasis {
-      0%, 100% { opacity: .76; }
-      12%, 78% { opacity: 1; }
-    }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .body { fill: #566573; font-size: 17px; }
+    .prompt { fill: #3478c9; font-size: 17px; font-weight: 600; }
+    .ok { fill: #42956c; font-weight: 700; }
+    .line { animation: reveal .65s ease-out both; }
+    .l2 { animation-delay: .25s; } .l3 { animation-delay: .5s; }
+    .l4 { animation-delay: .75s; } .l5 { animation-delay: 1s; }
+    .l6 { animation-delay: 1.25s; } .l7 { animation-delay: 1.5s; }
+    .cursor { animation: blink 1.2s steps(1) infinite; }
+    @keyframes reveal { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
     @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-    @media (prefers-reduced-motion: reduce) {
-      .log, .cursor { animation: none; opacity: 1; }
-    }
+    @media (prefers-reduced-motion: reduce) { .line, .cursor { animation: none; opacity: 1; } }
   </style>
-
-  <rect width="1200" height="540" rx="20" fill="#eeeee8"/>
-  <rect x="20" y="20" width="1160" height="500" rx="16" fill="#fbfaf6" stroke="#d9ded7" stroke-width="2"/>
-  <path d="M36 20h1128a16 16 0 0 1 16 16v48H20V36a16 16 0 0 1 16-16z" fill="#f2f3ed"/>
-  <line x1="20" y1="84" x2="1180" y2="84" class="rule"/>
-  <circle cx="52" cy="52" r="7" fill="#d7aaa0"/>
-  <circle cx="76" cy="52" r="7" fill="#e4c799"/>
-  <circle cx="100" cy="52" r="7" fill="#9ebdab"/>
-  <text x="600" y="59" text-anchor="middle" class="mono muted" font-size="16" letter-spacing=".7">manman / product journal</text>
-  <text x="1130" y="59" text-anchor="end" class="mono muted" font-size="14">01 — 06</text>
-
-  <text x="60" y="136" class="mono accent" font-size="16">manman@studio ~ % <tspan class="ink">open product-notes</tspan></text>
-  <text x="60" y="190" class="sans ink" font-size="40" font-weight="600">杨慢慢 <tspan class="mono muted" font-size="22" font-weight="400">/ AI Product Manager</tspan></text>
-  <line x1="60" y1="212" x2="1140" y2="212" class="rule"/>
-
-  <text x="60" y="256" class="mono log one" font-size="19"><tspan class="accent">01</tspan><tspan class="muted">  observe</tspan><tspan class="ink sans">　从真实用户问题出发</tspan></text>
-  <text x="60" y="299" class="mono log two" font-size="19"><tspan class="accent">02</tspan><tspan class="muted">  frame  </tspan><tspan class="ink sans">　拆解场景与关键假设</tspan></text>
-  <text x="60" y="342" class="mono log three" font-size="19"><tspan class="accent">03</tspan><tspan class="muted">  build  </tspan><tspan class="ink sans">　把想法变成可体验的原型</tspan></text>
-  <text x="60" y="385" class="mono log four" font-size="19"><tspan class="accent">04</tspan><tspan class="muted">  verify </tspan><tspan class="ink sans">　用证据修正产品判断</tspan></text>
-
-  <line x1="60" y1="417" x2="1140" y2="417" class="rule"/>
-  <text x="60" y="455" class="mono log five accent" font-size="16" letter-spacing="1.5">SLOW THINKING / REAL BUILDING</text>
-  <text x="60" y="489" class="sans log six muted" font-size="16">慢慢想清楚，再把它做出来。<tspan class="cursor accent">▍</tspan></text>
-  <text x="1140" y="489" text-anchor="end" class="mono muted" font-size="14">慢.说AI</text>
+  <rect x="1" y="1" width="998" height="518" rx="18" fill="#f8fafb" stroke="#d8e0e7" stroke-width="2"/>
+  <path d="M19 2h962a18 18 0 0 1 18 18v31H1V20A18 18 0 0 1 19 2z" fill="#f1f4f6"/>
+  <line x1="1" y1="52" x2="999" y2="52" stroke="#d8e0e7"/>
+  <circle cx="24" cy="27" r="7" fill="#ef6461"/>
+  <circle cx="47" cy="27" r="7" fill="#efbd4e"/>
+  <circle cx="70" cy="27" r="7" fill="#55b96f"/>
+  <text x="500" y="31" text-anchor="middle" class="mono" fill="#8694a1" font-size="12" letter-spacing=".8">eve@studio — product journal — 100×30</text>
+  <text x="54" y="97" class="mono line" fill="#526273" font-size="22" font-weight="700">EVE OS v1.0 — Thoughtful by design</text>
+  <text x="54" y="139" class="mono body line l2">[ <tspan class="ok">OK</tspan> ] Load product-thinking.ai</text>
+  <text x="54" y="175" class="mono body line l3">[ <tspan class="ok">OK</tspan> ] Mount /experiments    Ideas into prototypes</text>
+  <text x="54" y="211" class="mono body line l4">[ <tspan class="ok">OK</tspan> ] Mount /agents         AI in real workflows</text>
+  <text x="54" y="247" class="mono body line l5">[ <tspan class="ok">OK</tspan> ] Mount /contributions  Evidence before conclusions</text>
+  <text x="54" y="301" class="mono prompt line l6">eve@studio ~ % <tspan class="body">whoami</tspan></text>
+  <text x="54" y="335" class="mono body line l6">Eve · AI Product Manager · Curious builder</text>
+  <text x="54" y="389" class="mono prompt line l7">eve@studio ~ % <tspan class="body">explore selected-work</tspan><tspan class="cursor"> ▍</tspan></text>
+  <line x1="54" y1="421" x2="946" y2="421" stroke="#e1e7ed"/>
+  <text x="54" y="458" class="mono" fill="#526273" font-size="14">Think carefully. Build with purpose. Keep learning.</text>
+  <text x="946" y="488" text-anchor="end" class="mono" fill="#3478c9" font-size="13" letter-spacing="1.4">EXPLORE BELOW ↓</text>
 </svg>

@@ -1,39 +1,51 @@
-<p align="center">
-  <img src="./banner.svg" alt="Eve / MANMAN BUILDS" width="100%" />
+# Hi, I'm Eve 👋
+
+[![Eve OS — AI products, agents, and thoughtful experiments](./banner.svg)](#selected-work)
+
+<p align="center"><sub>Explore my product thinking, experiments, and open-source contributions below.</sub></p>
+
+I'm an AI Product Manager exploring how AI fits into real workflows.\
+I care about what people need, where systems fail, and how we can make them more useful.\
+This is where I share what I'm building, testing, and learning.
+
+🧪 [Selected work](#selected-work) · ✍️ [Writing](#writing) · 🌱 [About me](#about-me) · [RED / Xiaohongshu](https://www.xiaohongshu.com/user/profile/634fb9e1000000001802b00f)
+
+---
+
+## Selected work
+
+Small, concrete contributions to more reliable AI products.
+
+<p>
+  <a href="https://github.com/alibaba/open-code-review/issues/1492"><picture><source media="(prefers-color-scheme: dark)" srcset="./review-coverage-dark.svg"><img width="49%" src="./review-coverage-light.svg" alt="Review coverage — reporting a file-name edge case that can leave code changes unreviewed."></picture></a>
+  <a href="https://github.com/alibaba/open-code-review/issues/1493"><picture><source media="(prefers-color-scheme: dark)" srcset="./scan-reliability-dark.svg"><img width="49%" src="./scan-reliability-light.svg" alt="Scan reliability — reporting a whitespace-handling issue in file discovery."></picture></a>
 </p>
 
-## Eve
+<p>
+  <a href="https://github.com/alibaba/open-code-review/issues/894#issuecomment-5748485061"><picture><source media="(prefers-color-scheme: dark)" srcset="./session-isolation-dark.svg"><img width="49%" src="./session-isolation-light.svg" alt="Session isolation — adding evidence about cross-repository scan recovery to an existing issue."></picture></a>
+  <a href="https://www.xiaohongshu.com/user/profile/634fb9e1000000001802b00f"><picture><source media="(prefers-color-scheme: dark)" srcset="./product-notes-dark.svg"><img width="49%" src="./product-notes-light.svg" alt="Product notes — sharing observations and experiments on AI products."></picture></a>
+</p>
 
-**AI Product Manager · Creator of「慢.说AI」**
+<sub>The OpenCodeReview contributions above are issue reports and a follow-up comment, prepared with AI assistance. They are not merged code fixes.</sub>
 
-我关注 AI 如何进入真实场景，成为用户愿意使用、能够信任的产品。
+---
 
-这里记录我的产品判断、实验过程与阶段性答案。
+## Writing
 
-<br>
+I share observations on AI products, agents, and human–AI collaboration. I'm interested in the decisions behind a product: who it helps, what it gets wrong, and what makes it worth using.
 
-### Focus
+- [Read my posts on RED / Xiaohongshu →](https://www.xiaohongshu.com/user/profile/634fb9e1000000001802b00f)
+- I also write on WeChat about AI products and practical experiments.
 
-| Product Thinking | Prototyping | Evaluation |
-| :--- | :--- | :--- |
-| 从用户问题和业务流程出发 | 把想法变成可体验的原型 | 用真实任务与失败案例验证 |
+---
 
-<br>
+## About me
 
-### Now
+- AI Product Manager with an interest in agents, AI workflows, and human–AI collaboration.
+- Exploring product ideas through prototypes, evaluations, and open-source participation.
+- Learning to turn observations into clear questions, testable assumptions, and better product decisions.
+- Building a public record of what I try, what I learn, and what I change my mind about.
 
-- 研究 Agent 与 AI 工作流的产品化
-- 整理一套 AI 产品评测方法
-- 完成第一个公开产品案例
+**Build** something useful · **Test** it in context · **Learn** from evidence · **Improve** with feedback
 
-<br>
-
-### Principles
-
-`问题先于能力`　`证据先于结论`　`体验先于功能`
-
-<br>
-
-### Contact
-
-[小红书 · Eve](https://www.xiaohongshu.com/user/profile/634fb9e1000000001802b00f)　·　公众号「慢.说AI」
+Think carefully. Build with purpose. Keep learning.
