@@ -2,7 +2,7 @@
   <img src="./banner.svg" alt="杨慢慢 / MANMAN BUILDS" width="100%" />
 </p>
 
-## 杨慢慢
+## Eve
 
 **AI Product Manager · Creator of「慢.说AI」**
 
@@ -36,4 +36,4 @@
 
 ### Contact
 
-[小红书 · 杨慢慢](https://www.xiaohongshu.com/user/profile/634fb9e1000000001802b00f)　·　公众号「慢.说AI」
+[小红书 · Eve](https://www.xiaohongshu.com/user/profile/634fb9e1000000001802b00f)　·　公众号「慢.说AI」
