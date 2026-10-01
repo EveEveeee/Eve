@@ -1,0 +1,6 @@
+interface:
+  display_name: "证据驱动产品拆解"
+  short_description: "识别产品类型，按四层架构完成可追溯的产品逆向分析"
+  default_prompt: "使用 $evidence-led-product-teardown 基于我提供的产品证据完成产品拆解，并输出 HTML 报告。"
+policy:
+  allow_implicit_invocation: true
