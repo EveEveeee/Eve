@@ -1,0 +1,20 @@
+{
+  "brand": "Muse10",
+  "title": "Muse10款式生成",
+  "products": [
+    {
+      "name": "绮梦花园 · 示例",
+      "note": "十片陈列与同款佩戴示例",
+      "images": [
+        "master.jpg",
+        "wear.jpg",
+        "detail.jpg"
+      ],
+      "labels": [
+        "十片陈列",
+        "双手佩戴",
+        "局部特写"
+      ]
+    }
+  ]
+}

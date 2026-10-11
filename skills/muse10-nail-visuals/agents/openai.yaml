@@ -1,0 +1,4 @@
+interface:
+  display_name: "Muse10款式生成"
+  short_description: "按真实双手十指比例与固定背景模板制作美甲款式、上手图和交互预览"
+  default_prompt: "使用 $muse10-nail-visuals，按固定背景和真实双手十指尺寸，将我的参考照片制作成十片陈列、同款上手图与特写；每排第一片是更宽的拇指甲，先做预览。"

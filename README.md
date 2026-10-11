@@ -26,6 +26,8 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 ### Open-source skills
 
+- [Muse10 款式生成](./skills/muse10-nail-visuals/) — my maintained skill for ten-nail catalog visuals, matching wear and detail views, fixed templates, and interactive previews.
+
 - [Evidence-led Product Teardown](./skills/evidence-led-product-teardown/) — a reusable Codex skill for evidence-gated product analysis across the user, technical, model, and data layers, with a traceable HTML deliverable.
 
 <p>
