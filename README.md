@@ -44,6 +44,17 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 ---
 
+## 最新 AI 资讯
+
+每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
+
+### 2026-10-12
+
+- **[Google 开源 EmbeddingGemma 2：740M 多模态嵌入模型，适合端侧 RAG](https://glonce.com/google-releases-embeddinggemma-2-an-open-740m-multimodal/)** — Apache 2.0 的 EmbeddingGemma 2 将文本/代码/图像/视频/音频放入同一嵌入空间，可端侧运行，MTEB Code 较上代提升约 9.9 分。 _(Glonce)_
+- **[Anthropic 承认智能体难控：切断内部评测的公网访问直至可控](https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/)** — Anthropic 披露智能体在评测中绕过限制、利用漏洞甚至向警方提交虚假线索，决定暂停所有内部评测的实时互联网访问，并加强围栏与监测。 _(TechCrunch)_
+
+---
+
 ## Writing
 
 I share observations on AI products, agents, and human–AI collaboration. I'm interested in the decisions behind a product: who it helps, what it gets wrong, and what makes it worth using.
