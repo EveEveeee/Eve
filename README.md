@@ -48,6 +48,12 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-10-14
+
+- **[Google：Gemini 4 Argon 向开发者与 Pro/Ultra 用户开放](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)** — 新前沿模型即日起经 API、Gemini 应用与 Antigravity 提供，限时价为每百万输入/输出 token 2 美元与 10 美元，并称在 Vals Index 排名第一。 _(Google)_
+- **[OpenAI 与 Anthropic 呼吁英国以立法约束前沿 AI 安全](https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/)** — 两家公司在英国议会听证会上表示自愿承诺已不够，支持强制事故报告等法定框架；Google DeepMind 与 Meta 未支持新立法。 _(WIRED)_
+- **[美国运通推出框架，阻止 AI Agent 完成未授权购买](https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/)** — Intent Intelligence Framework 先记录预算、商家等购买意图并签发支付凭证，让 Agent 结账时不直接使用卡号。 _(TechCrunch)_
+
 ### 2026-10-13
 
 - **[Anthropic：小模型或数月内具备无数据中心自复制能力](https://www.anthropic.com/research/self-replicating-ai)** — 实验显示 ≤30B 模型已能完成多数复制步骤，GLM-5.2 可在简化评测中端到端复制；威胁场景包括在 IoT 设备上形成难切断的分布式「数字黏菌」。 _(Anthropic)_ 
