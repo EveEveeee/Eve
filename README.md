@@ -48,6 +48,12 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-10-15
+
+- **[Google 公开发布 Deep Review：面向技术文档的智能体审阅系统](https://research.google/blog/analyzing-technical-documents-with-deep-review/)** — 由论文助手 PAT 演进而来，已在 STOC、ICML、NeurIPS、ICLR 为 1.6 万余篇投稿提供预审反馈，现扩展到 Google Docs、演示文稿及法律、金融等领域文档的有据核查。 _(Google Research)_
+- **[Liquid AI 开源 LFM2.5-24B-A2B：面向端侧 Agent 的推理模型](https://www.liquid.ai/blog/lfm2-5-24b-a2b)** — 24B 总参数、每 token 仅激活约 2B，支持 131K 上下文与工具调用，在 Apple M5 Max 上解码约 184 tokens/s，权重已上架 Hugging Face。 _(Liquid AI)_
+- **[Fragment 完成 1200 万美元 A 轮，为 AI Agent 提供安全的财务基础设施](https://fortune.com/2026/10/14/fragment-raises-12-million-to-help-keep-ai-agents-from-going-rogue-with-company-money/)** — FirstMark 与 BoxGroup 联合领投，产品用复式记账在资金流动前校验账目平衡，客户包括 Ramp、BILL 与 Whop。 _(Fortune)_
+
 ### 2026-10-14
 
 - **[Google：Gemini 4 Argon 向开发者与 Pro/Ultra 用户开放](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)** — 新前沿模型即日起经 API、Gemini 应用与 Antigravity 提供，限时价为每百万输入/输出 token 2 美元与 10 美元，并称在 Vals Index 排名第一。 _(Google)_
