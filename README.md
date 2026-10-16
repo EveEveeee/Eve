@@ -48,6 +48,15 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-10-16
+
+- **[Meta 开源 Muse Spark Open：可在双台 Mac Studio 上本地运行的美系开源权重模型](https://research.meta.ai/blog/muse-spark-open)** — 816B 总参数、42B 激活、1M 上下文的原生多模态模型，面向编程与长程 Agent 任务；可在两台 Apple M5 Ultra Mac Studio 上用 MLX 本地运行，权重与 API 已开放。 _(Meta AI Research)_
+- **[Anthropic 向独立评测方 METR 开放接近员工级系统访问](https://www.anthropic.com/news/an-update-on-independent-evaluators)** — 六名 METR 研究员获公司设备、办公位与内部工具，可独立评估风险并自行发布报告；Anthropic 仅可按预定义类别要求脱敏、不能一票否决发布。 _(Anthropic)_
+- **[Google Universal Cart 在美国上线：跨零售商统一购物车进 Search 与 Gemini](https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/)** — 可把多家商店商品集中到一个智能购物车，跟踪降价与补货，并支持 Google Pay 结账或回跳商家结账。 _(Google)_ 
+- **[Microsoft 完成 MAI-Base-2 预训练：2.8T 参数 MoE 基座模型](https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/)** — 80B 激活参数，在 1.6 万张 GB200 上训练约 38 天；官方称相对 DeepSeek-V4-Pro-Base 预训练算力效率约高 4–12 倍，现进入后训练阶段。 _(Microsoft AI)_
+- **[Anchor 发布 Action Index：把成功网页工作流固化为可回放代码，降低 Computer-Use Agent 成本](https://www.globenewswire.com/news-release/2026/10/15/3382035/0/en/anchor-launches-action-index-cutting-computer-use-agent-token-costs-by-100x.html)** — 共享执行记忆让 Agent 回放已验证路径；在 Online-Mind2Web 300 题上，小模型配合 Index 成功率约 93.3%、单题约 $0.016，接近前沿模型表现但成本大幅下降。 _(GlobeNewswire / Anchor)_
+- **[Snyk 推出 Evo Agentic AppSec：用安全 Agent 团队发现、修复并拦截漏洞](https://snyk.io/news/snyk-launches-evo-agentic-appsec/)** — 多类专用安全 Agent 调用确定性扫描引擎，面向 Agent 生成代码与存量代码；其中 Remediation Agent 在可合并修复率评测中约达 90%。 _(Snyk)_
+
 ### 2026-10-15
 
 - **[Google 公开发布 Deep Review：面向技术文档的智能体审阅系统](https://research.google/blog/analyzing-technical-documents-with-deep-review/)** — 由论文助手 PAT 演进而来，已在 STOC、ICML、NeurIPS、ICLR 为 1.6 万余篇投稿提供预审反馈，现扩展到 Google Docs、演示文稿及法律、金融等领域文档的有据核查。 _(Google Research)_
