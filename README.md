@@ -48,6 +48,12 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-10-17
+
+- **[NVIDIA 发布 Nemotron 3.5 Super VL 与 Bolt：从数据中心到本地的开放 Agent 模型](https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/)** — Super VL 为 120B 总参数、12B 激活的多模态 MoE，支持 1M 上下文、工具调用与文档/视频理解；Bolt 74B-A9B 用原生 2-bit 量化塞进 24GB 内存跑本地 Agent，4GB 的 Bolt E4B 将于 10 月 23 日推出。 _(NVIDIA)_
+- **[Reflection 开放 Beam 1.0 权重：501B 开源模型主打编程与长程 Agent](https://reflection.ai/blog/beam-is-available)** — 501B 总参数、23B 激活、1M 上下文，以 Apache 2.0 许可上架 Hugging Face，同步公开模型卡与安全技术报告，并联合 AWS、Ollama、OpenRouter 等 40 多家合作方首发接入。 _(Reflection)_
+- **[OpenAI 推出 GPT-Live-1.1：ChatGPT 语音新增多语种音色、口音更自然](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)** — GPT-Live-1.1 与迷你版 GPT-Live-1.1 Quip 进入 ChatGPT Voice，新增法、德、印地、日、韩、墨西哥西语等音色，并减少语音对话中的「检查中」停顿；API 支持即将推出。 _(OpenAI)_
+
 ### 2026-10-16
 
 - **[Meta 开源 Muse Spark Open：可在双台 Mac Studio 上本地运行的美系开源权重模型](https://research.meta.ai/blog/muse-spark-open)** — 816B 总参数、42B 激活、1M 上下文的原生多模态模型，面向编程与长程 Agent 任务；可在两台 Apple M5 Ultra Mac Studio 上用 MLX 本地运行，权重与 API 已开放。 _(Meta AI Research)_
