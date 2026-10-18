@@ -48,6 +48,10 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-10-18
+
+- **[DeepSeek 升级 V4.1-Flash-1017，并开放自研搜索 Search / Fetch API](https://api-docs.deepseek.com/updates)** — 新版在 DeepSWE v1.1 上达 77.0、Terminal-Bench 4.0 达 42.3，同时缩短任务耗时与输出长度；网页端、App 与 API（deepseek-flash）同步更新，调用方式和价格不变，自研搜索引擎也以 Search / Fetch API 对开发者开放。 _(DeepSeek)_
+
 ### 2026-10-17
 
 - **[NVIDIA 发布 Nemotron 3.5 Super VL 与 Bolt：从数据中心到本地的开放 Agent 模型](https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/)** — Super VL 为 120B 总参数、12B 激活的多模态 MoE，支持 1M 上下文、工具调用与文档/视频理解；Bolt 74B-A9B 用原生 2-bit 量化塞进 24GB 内存跑本地 Agent，4GB 的 Bolt E4B 将于 10 月 23 日推出。 _(NVIDIA)_
