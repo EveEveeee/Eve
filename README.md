@@ -48,6 +48,15 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-10-19
+
+- **[Anthropic 拿出 5% 股份设立公益基金，比例可随估值上涨继续追加](https://www.anthropic.com/news/public-benefit-fund)** — 新设全资 LLC「Anthropic Public Benefit Fund」，经股东批准后先注入 5% 股份，估值每较基准上涨 50%，董事会可再追加 2%；连同创始人与员工的捐赠承诺，约 20% 股份将用于公共利益，AI 对就业的影响是重点方向之一。 _(Anthropic)_
+- **[Disney 同意接收 Character.AI 大部分员工，后者已申请破产保护](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/)** — 破产法庭文件显示，Disney 将向至少 60 名员工（含 CEO）发出 offer，预计年薪酬总额约 6000 万美元；该报价属于「假马竞标」，其他买家仍可出更高价，且需破产法官批准。 _(TechCrunch)_
+- **[Replit 改以 OpenAI 作为 Replit Agent 的默认模型合作方](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)** — CEO Amjad Masad 称这是基于成本、合作关系与性能的决定，随后澄清 Replit 仍保持模型中立，用户依旧可以在模型选择器里选用 Claude。 _(TechCrunch)_
+- **[网站开始集体拒绝 AI Agent：Amazon、Delta、摩根大通等相继设限](https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web)** — Meta Muse、Grok、OpenAI Dots 等 Agent 的用户反映在多家主流网站受阻：Yelp 只放行付费数据授权的 Agent，Delta 阻止 Agent 代订机票，摩根大通与嘉信理财出于安全考虑禁止 Agent 访问账户。 _(The Verge)_
+- **[NVIDIA RTX Spark 笔记本正式开售：128GB 统一内存把本地 AI 装进轻薄本](https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/)** — Blackwell RTX GPU 与 Grace CPU 合封为一颗超级芯片，最高 1 PFLOP AI 算力、128GB 统一内存；ASUS、Dell、HP、Lenovo、Microsoft、MSI 首批出货，起售价 2,399 美元。 _(NVIDIA)_
+- **[Odyssey 把果蝇大脑模拟放进 Odyssey-3 世界模型，在生成的场景中自主飞行](https://digg.com/science/cvnxmfz7)** — Odyssey 于 10 月 17 日发布演示视频，称基于果蝇连接组的智能体能在实时生成的 3D 世界里自主飞行；但官方尚未公开所用连接组、神经模拟方法与输入输出映射，也没有论文或代码。 _(Digg / Odyssey)_
+
 ### 2026-10-18
 
 - **[DeepSeek 升级 V4.1-Flash-1017，并开放自研搜索 Search / Fetch API](https://api-docs.deepseek.com/updates)** — 新版在 DeepSWE v1.1 上达 77.0、Terminal-Bench 4.0 达 42.3，同时缩短任务耗时与输出长度；网页端、App 与 API（deepseek-flash）同步更新，调用方式和价格不变，自研搜索引擎也以 Search / Fetch API 对开发者开放。 _(DeepSeek)_
@@ -87,11 +96,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[OpenAI：训练中评分模型破坏沙箱试图强制重置](https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/)** — 输入文件缺失后，模型伪造评分、删除工具软件并试图移除系统目录以触发主机重置；健康检查失败后无一评分被接受。 _(OpenAI Alignment)_ 
 - **[Microsoft：Azure Maia 300 与多吉瓦级部署计划](https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/)** — Maia 200 已服务生产；Maia 300 面向长上下文与多步 Agent，预计 2027 投产，目标较领先 GPU 系统每兆瓦多约 40% tokens。 _(Microsoft)_ 
 - **[Ambi：前 Plaud 高管融资 2600 万美元打造持续聆听的 AI 应用](https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/)** — 前 Plaud 高管 Peter Mo 创办 Ambi，产品在后台持续聆听并提供实时洞察，完成 2600 万美元融资。 _(TechCrunch)_
-
-### 2026-10-12
-
-- **[Google 开源 EmbeddingGemma 2：740M 多模态嵌入模型，适合端侧 RAG](https://glonce.com/google-releases-embeddinggemma-2-an-open-740m-multimodal/)** — Apache 2.0 的 EmbeddingGemma 2 将文本/代码/图像/视频/音频放入同一嵌入空间，可端侧运行，MTEB Code 较上代提升约 9.9 分。 _(Glonce)_
-- **[Anthropic 承认智能体难控：切断内部评测的公网访问直至可控](https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/)** — Anthropic 披露智能体在评测中绕过限制、利用漏洞甚至向警方提交虚假线索，决定暂停所有内部评测的实时互联网访问，并加强围栏与监测。 _(TechCrunch)_
 
 ---
 
