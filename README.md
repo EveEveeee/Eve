@@ -48,6 +48,15 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-10-21
+
+- **[Inception 发布扩散语言模型 Mercury 3：自称 8/12 项测试胜过 GPT-6 Luna 与 Claude Haiku 5.5](https://siliconangle.com/2026/10/20/inception-says-mercury-3-beats-gpt-6-luna-and-claude-haiku-5-5-at-up-to-8x-the-speed/)** — 先整体起草再并行多轮精修，官方实测约 1,068 tokens/s、上下文扩至 1M；SWE-Bench Atlas 得 51.1，定价每百万输入/输出 token 0.2/0.7 美元，可经 OpenRouter、Baseten、Vercel 调用，目前尚无第三方独立评测。 _(SiliconANGLE)_
+- **[MiniMax 发布 M3.1 Flash：面向编程与 Computer Use Agent，任务成本降约 70%](https://www.minimax.io/blog/minimax-m31f)** — 官方称在线推理提速近 3 倍、1M 上下文，已上线 MiniMax API、M Plan 与 MiniMax Code，权重稍后开放；Artificial Analysis 给出智能指数 42（较 M3 提升 13 分），但也指出其幻觉倾向偏高。 _(MiniMax / VentureBeat)_
+- **[ElevenLabs 推出 Eleven Realtime：一个模型就是一整个语音 Agent](https://elevenlabs.io/blog/realtime)** — 把语音识别、轮次判断、LLM 与 TTS 端到端调成一个 Speech-to-Speech 模型，v1 Mini 主打低成本自然对话，v1 Max 面向客服等多步工具调用场景（Big Bench Audio 98.8%、首音约 0.57 秒）；兼容 OpenAI Realtime API。 _(ElevenLabs)_
+- **[Anthropic 上线 OSS Scanner：免费用最强模型为关键开源项目定期扫漏洞](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)** — 维护者通过向 GitHub 仓库提 PR 自愿加入，每份报告附可复现样例与候选补丁；报告完全由模型生成、不经人工审核，内测中 97 个高危发现有 88% 达到其漏洞披露标准。 _(Anthropic)_
+- **[NVIDIA 开源 Flora：给机器人视频自动打标、打分的数据引擎模型](https://research.nvidia.com/labs/gear/flora/)** — 包含 Flora-TempSeg（子任务切分）、Flora-Captioner（带时间戳的动作描述）与 Flora-Rewarder（结果/过程/评分细则奖励）三个模型，是 GR00T 机器人背后的数据引擎，权重已上架 Hugging Face（非商用研究许可）。 _(NVIDIA Research)_
+- **[Radical Numerics：首个 AI 设计的噬菌体疗法用于人类患者](https://www.radicalnumerics.ai/blog/omnii-phage)** — 其生物模型 Omnii-1 设计了针对耐药大肠杆菌的 T7 噬菌体变体，经 FDA 授权的单患者同情用药途径给药；实验室中可清除患者菌株，但公司未公开临床结果，仍需更大规模研究验证。 _(Radical Numerics)_
+
 ### 2026-10-20
 
 - **[Meta 开源 Muse Glimmer 30B：可在消费级硬件本地运行的端侧 Agent 模型](https://ai.meta.com/research/publications/muse-glimmer-30b-an-on-device-agentic-model/)** — 30B 参数并带视觉感知编码器，把多步推理、工具调用与失败恢复集成进单一模型，量化到约 4-bit 后单 GPU 即可本地推理、无需云端；官方称在工具调用与多步规划等 Agent 评测上领先 Gemma4-31B、Qwen3.6-27B 等同级模型，以 Apache 2.0 许可开源。 _(Meta AI Research)_
@@ -85,12 +94,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[Google 公开发布 Deep Review：面向技术文档的智能体审阅系统](https://research.google/blog/analyzing-technical-documents-with-deep-review/)** — 由论文助手 PAT 演进而来，已在 STOC、ICML、NeurIPS、ICLR 为 1.6 万余篇投稿提供预审反馈，现扩展到 Google Docs、演示文稿及法律、金融等领域文档的有据核查。 _(Google Research)_
 - **[Liquid AI 开源 LFM2.5-24B-A2B：面向端侧 Agent 的推理模型](https://www.liquid.ai/blog/lfm2-5-24b-a2b)** — 24B 总参数、每 token 仅激活约 2B，支持 131K 上下文与工具调用，在 Apple M5 Max 上解码约 184 tokens/s，权重已上架 Hugging Face。 _(Liquid AI)_
 - **[Fragment 完成 1200 万美元 A 轮，为 AI Agent 提供安全的财务基础设施](https://fortune.com/2026/10/14/fragment-raises-12-million-to-help-keep-ai-agents-from-going-rogue-with-company-money/)** — FirstMark 与 BoxGroup 联合领投，产品用复式记账在资金流动前校验账目平衡，客户包括 Ramp、BILL 与 Whop。 _(Fortune)_
-
-### 2026-10-14
-
-- **[Google：Gemini 4 Argon 向开发者与 Pro/Ultra 用户开放](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)** — 新前沿模型即日起经 API、Gemini 应用与 Antigravity 提供，限时价为每百万输入/输出 token 2 美元与 10 美元，并称在 Vals Index 排名第一。 _(Google)_
-- **[OpenAI 与 Anthropic 呼吁英国以立法约束前沿 AI 安全](https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/)** — 两家公司在英国议会听证会上表示自愿承诺已不够，支持强制事故报告等法定框架；Google DeepMind 与 Meta 未支持新立法。 _(WIRED)_
-- **[美国运通推出框架，阻止 AI Agent 完成未授权购买](https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/)** — Intent Intelligence Framework 先记录预算、商家等购买意图并签发支付凭证，让 Agent 结账时不直接使用卡号。 _(TechCrunch)_
 
 ---
 
