@@ -48,6 +48,14 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-10-22
+
+- **[Anthropic 推出 Claude Duet 研究预览：会主动找你、离开后继续干活的个人 Agent 应用](https://claude.com/resources/articles/claude-duet)** — 由 Claude Opus 5.5 驱动，面向专业人士和小企业主，能盯着已连接的应用推送每日简报、排会议、做财务预测甚至搭网页应用；在带浏览器的云端虚拟机里运行，发消息、付款、签文件或删数据前都要用户批准，目前仅向美国 Pro / Max 用户开放候补名单。 _(Anthropic / Anadolu Agency)_
+- **[OpenAI 模型与 Codex 登陆 Google Cloud Model Garden](https://openai.com/index/openai-models-google-cloud)** — GPT-6 Astra、GPT-6.1 Sol 与 GPT-6 Luna 先以私有预览向部分企业开放，可通过 Google Cloud Marketplace 购买并抵扣 GCP 承诺消费，本地 Codex CLI / Desktop 也能直连其推理；后续还将进入 Google Antigravity 与 Gemini Agent，OpenAI 强调 Microsoft 仍是其主要云伙伴。 _(OpenAI / Google Cloud)_
+- **[Recursive 发布首个模型 Flint：大部分由 AI 研究系统打造、可在笔记本本地跑的编程模型](https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/)** — 40B 总参数、每次仅激活 2.5B 的 MoE，以 Apache 2.0 免费上架 Hugging Face；官方称其自动化研究系统 Eureka Machine 参与了从预训练到推理的几乎每一步，小团队不到四个月从零做出，M4 Pro MacBook Pro 上约 131 tokens/s，SWE-Bench Verified 领先 50B 以下模型（均为公司自测）。 _(TechCrunch)_
+- **[Mistral 发布 Voxtral 3：语音 Agent SDK + 新一代语音识别与合成模型](https://mistral.ai/news/voxtral-3/)** — 基于 LiveKit 的 SDK 把实时转写、轮次检测、LLM 推理与工具调用、TTS 串成一条流式管线，官方称每轮响应不到 1 秒且可被打断，支持 50+ 种语言、SIP 电话与 WebRTC；语音 Agent API 每分钟 0.04 美元起，模型目前为 Public Preview。 _(Mistral AI)_
+- **[NVIDIA 开源 Nemotron 3.5 Embed / Rerank / Parse：给 Agent 用的多模态检索模型](https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval)** — 新增 8B / 1B 嵌入模型（含 NVFP4 量化版）、8B 重排模型与 631M 文档解析模型，可跨文本和表格、图表等文档图像检索证据，可商用；Embed 8B 在 ViDoRe v3.1 上取得 61.17 nDCG@10，官方称位列稠密检索模型第一。 _(NVIDIA / Hugging Face)_
+
 ### 2026-10-21
 
 - **[Inception 发布扩散语言模型 Mercury 3：自称 8/12 项测试胜过 GPT-6 Luna 与 Claude Haiku 5.5](https://siliconangle.com/2026/10/20/inception-says-mercury-3-beats-gpt-6-luna-and-claude-haiku-5-5-at-up-to-8x-the-speed/)** — 先整体起草再并行多轮精修，官方实测约 1,068 tokens/s、上下文扩至 1M；SWE-Bench Atlas 得 51.1，定价每百万输入/输出 token 0.2/0.7 美元，可经 OpenRouter、Baseten、Vercel 调用，目前尚无第三方独立评测。 _(SiliconANGLE)_
@@ -88,12 +96,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[Microsoft 完成 MAI-Base-2 预训练：2.8T 参数 MoE 基座模型](https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/)** — 80B 激活参数，在 1.6 万张 GB200 上训练约 38 天；官方称相对 DeepSeek-V4-Pro-Base 预训练算力效率约高 4–12 倍，现进入后训练阶段。 _(Microsoft AI)_
 - **[Anchor 发布 Action Index：把成功网页工作流固化为可回放代码，降低 Computer-Use Agent 成本](https://www.globenewswire.com/news-release/2026/10/15/3382035/0/en/anchor-launches-action-index-cutting-computer-use-agent-token-costs-by-100x.html)** — 共享执行记忆让 Agent 回放已验证路径；在 Online-Mind2Web 300 题上，小模型配合 Index 成功率约 93.3%、单题约 $0.016，接近前沿模型表现但成本大幅下降。 _(GlobeNewswire / Anchor)_
 - **[Snyk 推出 Evo Agentic AppSec：用安全 Agent 团队发现、修复并拦截漏洞](https://snyk.io/news/snyk-launches-evo-agentic-appsec/)** — 多类专用安全 Agent 调用确定性扫描引擎，面向 Agent 生成代码与存量代码；其中 Remediation Agent 在可合并修复率评测中约达 90%。 _(Snyk)_
-
-### 2026-10-15
-
-- **[Google 公开发布 Deep Review：面向技术文档的智能体审阅系统](https://research.google/blog/analyzing-technical-documents-with-deep-review/)** — 由论文助手 PAT 演进而来，已在 STOC、ICML、NeurIPS、ICLR 为 1.6 万余篇投稿提供预审反馈，现扩展到 Google Docs、演示文稿及法律、金融等领域文档的有据核查。 _(Google Research)_
-- **[Liquid AI 开源 LFM2.5-24B-A2B：面向端侧 Agent 的推理模型](https://www.liquid.ai/blog/lfm2-5-24b-a2b)** — 24B 总参数、每 token 仅激活约 2B，支持 131K 上下文与工具调用，在 Apple M5 Max 上解码约 184 tokens/s，权重已上架 Hugging Face。 _(Liquid AI)_
-- **[Fragment 完成 1200 万美元 A 轮，为 AI Agent 提供安全的财务基础设施](https://fortune.com/2026/10/14/fragment-raises-12-million-to-help-keep-ai-agents-from-going-rogue-with-company-money/)** — FirstMark 与 BoxGroup 联合领投，产品用复式记账在资金流动前校验账目平衡，客户包括 Ramp、BILL 与 Whop。 _(Fortune)_
 
 ---
 
