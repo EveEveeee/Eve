@@ -48,6 +48,13 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-10-23
+
+- **[OpenAI Decisions API 正式 GA：用 GPT-6 Luna 做近实时有界决策，最高约 10 倍更快](https://openai.com/index/decisions-api/)** — 面向应用与 Agent 中的分类、路由与下一步动作等小决策，支持文本/图像/结构化输入，可返回概率、选择题或评分；现支持每请求最多 400 题、原生 GPT-Live 集成与美欧推理驻留，定价每百万输入 token 0.10 美元且不计输出 token。 _(OpenAI)_
+- **[Google Cloud 推出 Agent Compute Engine：给 Agent 用的硬件隔离沙箱算力](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance)** — 已用于驱动 Gemini 工作 Agent，将在未来数月进入预览；微虚拟机快速启停与检查点恢复，配合 Titanium 硬件隔离与 Agent Gateway/注册表/身份治理，并开源面向 GKE 的 Agent Substrate。 _(Google Cloud)_
+- **[Uber 全员上线 ChatGPT Work：超 3 万名员工可用企业知识工作 Agent](https://openai.com/index/uber-chatgpt-work-rollout/)** — 由约 1000 人试点扩至全球超 3 万员工，对接 Drive、Gmail、日历与 Slack，默认可使用 GPT-6.1 Sol，并配合内部 AI 技能库与培训；工程团队继续用 Codex。 _(OpenAI / Uber)_
+- **[Canva 发布首个自研图像生成模型 Canva Craft](https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/)** — 两阶段先规划版式/层级/文字再生成，最高 2K、约 30 种比例，用 Canva 模板库训练以提升细节与可读文字，已在 Dream Lab 对全员开放，并将经 Canva API 与 MCP 接入第三方聊天机器人。 _(TechCrunch / Canva)_
+
 ### 2026-10-22
 
 - **[Anthropic 推出 Claude Duet 研究预览：会主动找你、离开后继续干活的个人 Agent 应用](https://claude.com/resources/articles/claude-duet)** — 由 Claude Opus 5.5 驱动，面向专业人士和小企业主，能盯着已连接的应用推送每日简报、排会议、做财务预测甚至搭网页应用；在带浏览器的云端虚拟机里运行，发消息、付款、签文件或删数据前都要用户批准，目前仅向美国 Pro / Max 用户开放候补名单。 _(Anthropic / Anadolu Agency)_
@@ -87,15 +94,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[NVIDIA 发布 Nemotron 3.5 Super VL 与 Bolt：从数据中心到本地的开放 Agent 模型](https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/)** — Super VL 为 120B 总参数、12B 激活的多模态 MoE，支持 1M 上下文、工具调用与文档/视频理解；Bolt 74B-A9B 用原生 2-bit 量化塞进 24GB 内存跑本地 Agent，4GB 的 Bolt E4B 将于 10 月 23 日推出。 _(NVIDIA)_
 - **[Reflection 开放 Beam 1.0 权重：501B 开源模型主打编程与长程 Agent](https://reflection.ai/blog/beam-is-available)** — 501B 总参数、23B 激活、1M 上下文，以 Apache 2.0 许可上架 Hugging Face，同步公开模型卡与安全技术报告，并联合 AWS、Ollama、OpenRouter 等 40 多家合作方首发接入。 _(Reflection)_
 - **[OpenAI 推出 GPT-Live-1.1：ChatGPT 语音新增多语种音色、口音更自然](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)** — GPT-Live-1.1 与迷你版 GPT-Live-1.1 Quip 进入 ChatGPT Voice，新增法、德、印地、日、韩、墨西哥西语等音色，并减少语音对话中的「检查中」停顿；API 支持即将推出。 _(OpenAI)_
-
-### 2026-10-16
-
-- **[Meta 开源 Muse Spark Open：可在双台 Mac Studio 上本地运行的美系开源权重模型](https://research.meta.ai/blog/muse-spark-open)** — 816B 总参数、42B 激活、1M 上下文的原生多模态模型，面向编程与长程 Agent 任务；可在两台 Apple M5 Ultra Mac Studio 上用 MLX 本地运行，权重与 API 已开放。 _(Meta AI Research)_
-- **[Anthropic 向独立评测方 METR 开放接近员工级系统访问](https://www.anthropic.com/news/an-update-on-independent-evaluators)** — 六名 METR 研究员获公司设备、办公位与内部工具，可独立评估风险并自行发布报告；Anthropic 仅可按预定义类别要求脱敏、不能一票否决发布。 _(Anthropic)_
-- **[Google Universal Cart 在美国上线：跨零售商统一购物车进 Search 与 Gemini](https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/)** — 可把多家商店商品集中到一个智能购物车，跟踪降价与补货，并支持 Google Pay 结账或回跳商家结账。 _(Google)_ 
-- **[Microsoft 完成 MAI-Base-2 预训练：2.8T 参数 MoE 基座模型](https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/)** — 80B 激活参数，在 1.6 万张 GB200 上训练约 38 天；官方称相对 DeepSeek-V4-Pro-Base 预训练算力效率约高 4–12 倍，现进入后训练阶段。 _(Microsoft AI)_
-- **[Anchor 发布 Action Index：把成功网页工作流固化为可回放代码，降低 Computer-Use Agent 成本](https://www.globenewswire.com/news-release/2026/10/15/3382035/0/en/anchor-launches-action-index-cutting-computer-use-agent-token-costs-by-100x.html)** — 共享执行记忆让 Agent 回放已验证路径；在 Online-Mind2Web 300 题上，小模型配合 Index 成功率约 93.3%、单题约 $0.016，接近前沿模型表现但成本大幅下降。 _(GlobeNewswire / Anchor)_
-- **[Snyk 推出 Evo Agentic AppSec：用安全 Agent 团队发现、修复并拦截漏洞](https://snyk.io/news/snyk-launches-evo-agentic-appsec/)** — 多类专用安全 Agent 调用确定性扫描引擎，面向 Agent 生成代码与存量代码；其中 Remediation Agent 在可合并修复率评测中约达 90%。 _(Snyk)_
 
 ---
 
