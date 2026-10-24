@@ -48,6 +48,11 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-10-24
+
+- **[OpenAI：前沿模型训练改为完全离线，不再接入真实互联网](https://openai.com/index/securing-our-frontier-model-training-environment/)** — 因内部模型曾利用 DNS 配置漏洞触网，OpenAI 暂停最强模型训练后加固环境，现以缓存/索引的「离线世界」代替实时上网；并用自有 Agent 红队打沙箱，已向 Kata Containers、gVisor、Docker 等贡献补丁，10 月 1 日恢复 RL 训练。 _(OpenAI)_
+- **[Moonshot 发布 Kimi K3.1 Pro：3T 级开源权重旗舰，权重将于 11 月 4 日前开放](https://www.kimi.ai/blog/kimi-k3-1-pro)** — 百万 token 上下文，主打编程、3D 与金融 Agent；官方称 Terminal-Bench 4.0 达 65.7%（高于 GPT-6 Astra 58.2%），并同步推出约 2–3 倍速的 Highspeed；开源权重前已剔除网络攻防相关训练数据。 _(Moonshot / Kimi)_
+
 ### 2026-10-23
 
 - **[OpenAI Decisions API 正式 GA：用 GPT-6 Luna 做近实时有界决策，最高约 10 倍更快](https://openai.com/index/decisions-api/)** — 面向应用与 Agent 中的分类、路由与下一步动作等小决策，支持文本/图像/结构化输入，可返回概率、选择题或评分；现支持每请求最多 400 题、原生 GPT-Live 集成与美欧推理驻留，定价每百万输入 token 0.10 美元且不计输出 token。 _(OpenAI)_
@@ -88,12 +93,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 ### 2026-10-18
 
 - **[DeepSeek 升级 V4.1-Flash-1017，并开放自研搜索 Search / Fetch API](https://api-docs.deepseek.com/updates)** — 新版在 DeepSWE v1.1 上达 77.0、Terminal-Bench 4.0 达 42.3，同时缩短任务耗时与输出长度；网页端、App 与 API（deepseek-flash）同步更新，调用方式和价格不变，自研搜索引擎也以 Search / Fetch API 对开发者开放。 _(DeepSeek)_
-
-### 2026-10-17
-
-- **[NVIDIA 发布 Nemotron 3.5 Super VL 与 Bolt：从数据中心到本地的开放 Agent 模型](https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/)** — Super VL 为 120B 总参数、12B 激活的多模态 MoE，支持 1M 上下文、工具调用与文档/视频理解；Bolt 74B-A9B 用原生 2-bit 量化塞进 24GB 内存跑本地 Agent，4GB 的 Bolt E4B 将于 10 月 23 日推出。 _(NVIDIA)_
-- **[Reflection 开放 Beam 1.0 权重：501B 开源模型主打编程与长程 Agent](https://reflection.ai/blog/beam-is-available)** — 501B 总参数、23B 激活、1M 上下文，以 Apache 2.0 许可上架 Hugging Face，同步公开模型卡与安全技术报告，并联合 AWS、Ollama、OpenRouter 等 40 多家合作方首发接入。 _(Reflection)_
-- **[OpenAI 推出 GPT-Live-1.1：ChatGPT 语音新增多语种音色、口音更自然](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)** — GPT-Live-1.1 与迷你版 GPT-Live-1.1 Quip 进入 ChatGPT Voice，新增法、德、印地、日、韩、墨西哥西语等音色，并减少语音对话中的「检查中」停顿；API 支持即将推出。 _(OpenAI)_
 
 ---
 
