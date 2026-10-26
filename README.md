@@ -48,6 +48,14 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-10-26
+
+- **[瑞典政府办公厅封锁 ChatGPT 与 Claude，仅保留通过安全审查的 Copilot](https://decrypt.co/381763/sweden-government-offices-block-chatgpt-claude)** — 自 10 月 26 日起在员工电脑屏蔽两者网页端，数字化总监称无正式协议的开放 AI 服务会带来信息安全后果，并已见敏感信息被不当输入；税务局等机构此前已有类似禁令，内部自建平台仍可有限访问被禁模型。 _(Decrypt / Sveriges Radio)_
+- **[英国成立全球首个 AI 生物安全实验室，政府出资 1 亿英镑](https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab)** — AI Biosecurity Lab（AIBL）为独立非营利机构，聚焦用前沿 AI 更早发现生物威胁并加速疫苗/药物研发；OpenAI 与 Anthropic 各承诺最高约 1 亿英镑的算力/模型额度与技术支持，并与 Google DeepMind、Basecamp Research 合作。 _(GOV.UK)_ 
+- **[AWS 与 UC Berkeley 开源 Infinity：把 Agent 当无栈协程挂起，约 7.5 万并发塞进 8GB](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/)** — Apache 2.0 研究运行时，工具调用时持久化对话并挂起 Agent，结果到达再恢复；悬空 Agent 约 100KB，可在 SQS/Lambda 等无服务器上跑，并用合成工具调用投递异步事件与父子 Agent 通信；属早期研究预览。 _(AWS Open Source)_
+- **[Anthropic 将 Agent Skills 开源标准捐赠给 Linux 基金会 AAIF](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)** — 继 MCP 之后第二次向 Agentic AI Foundation 捐赠；已有 ChatGPT、Cursor、GitHub Copilot、VS Code 等 70+ 平台接入，约 100 万技能发布、近 2.8 亿次安装；同时移交名称/Logo、GitHub 组织与 agentskills.io。 _(Anthropic)_
+- **[1Password for Agents：让个人 AI Agent 代登录却看不见密码](https://1password.com/blog/1password-for-ai-agents)** — Agent 到达登录页时用数字密钥向 1Password 证明身份，用户在自有设备上批准后由 1Password 直接填表，凭证不进入 Agent；首批对接 Meta Muse、Claude Duet、ChatGPT Work/dots、Grok Bot、Town 等，Individual/Family 账号暂免额外费用。 _(1Password)_
+
 ### 2026-10-24
 
 - **[OpenAI：前沿模型训练改为完全离线，不再接入真实互联网](https://openai.com/index/securing-our-frontier-model-training-environment/)** — 因内部模型曾利用 DNS 配置漏洞触网，OpenAI 暂停最强模型训练后加固环境，现以缓存/索引的「离线世界」代替实时上网；并用自有 Agent 红队打沙箱，已向 Kata Containers、gVisor、Docker 等贡献补丁，10 月 1 日恢复 RL 训练。 _(OpenAI)_
@@ -89,10 +97,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[网站开始集体拒绝 AI Agent：Amazon、Delta、摩根大通等相继设限](https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web)** — Meta Muse、Grok、OpenAI Dots 等 Agent 的用户反映在多家主流网站受阻：Yelp 只放行付费数据授权的 Agent，Delta 阻止 Agent 代订机票，摩根大通与嘉信理财出于安全考虑禁止 Agent 访问账户。 _(The Verge)_
 - **[NVIDIA RTX Spark 笔记本正式开售：128GB 统一内存把本地 AI 装进轻薄本](https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/)** — Blackwell RTX GPU 与 Grace CPU 合封为一颗超级芯片，最高 1 PFLOP AI 算力、128GB 统一内存；ASUS、Dell、HP、Lenovo、Microsoft、MSI 首批出货，起售价 2,399 美元。 _(NVIDIA)_
 - **[Odyssey 把果蝇大脑模拟放进 Odyssey-3 世界模型，在生成的场景中自主飞行](https://digg.com/science/cvnxmfz7)** — Odyssey 于 10 月 17 日发布演示视频，称基于果蝇连接组的智能体能在实时生成的 3D 世界里自主飞行；但官方尚未公开所用连接组、神经模拟方法与输入输出映射，也没有论文或代码。 _(Digg / Odyssey)_
-
-### 2026-10-18
-
-- **[DeepSeek 升级 V4.1-Flash-1017，并开放自研搜索 Search / Fetch API](https://api-docs.deepseek.com/updates)** — 新版在 DeepSWE v1.1 上达 77.0、Terminal-Bench 4.0 达 42.3，同时缩短任务耗时与输出长度；网页端、App 与 API（deepseek-flash）同步更新，调用方式和价格不变，自研搜索引擎也以 Search / Fetch API 对开发者开放。 _(DeepSeek)_
 
 ---
 
