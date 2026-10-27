@@ -48,6 +48,14 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-10-27
+
+- **[Anthropic 正式提交 IPO 文件，拟以 ANT 登陆纳斯达克](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/)** — 上半年营收约 163 亿美元（去年同期约 12 亿），经营亏损收窄至约 6.93 亿美元，净亏损约 807 亿美元主因可转债公允价值变动；企业客户中年费超 10 万美元的逾 1.19 万家，募资规模与定价尚未披露，七位联合创始人将通过 Founder LLC 合计掌握 50.1% 投票权。 _(TechCrunch)_
+- **[Meta 启动最高约 950 亿美元股权融资计划，支撑 AI 基建与「个人超级智能」](https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html)** — 先进行约 350 亿美元承销发行（约 225 亿普通股 + 125 亿强制可转优先股存托凭证），后续拟用无投票权 Class C 做约 600 亿 ATM；Nvidia、AMD、Broadcom 有意合计认购至多约 50 亿美元，全年资本开支指引已上调至 1350–1450 亿美元。 _(CNBC / Meta)_
+- **[SpaceX 与 Apollo 敲定约 400 亿美元 GPU 融资租赁，自称「最大已承诺 GPU 融资」](https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/)** — Apollo 管理实体购入芯片与机房设备后租给 SpaceX，租期约 5–5.25 年，预计年底前交割、2027 上半年起陆续起租，用于 Grok 与云算力扩张，并指向 Nvidia 下一代 Vera Rubin；公司称 AI 基建投资回收期不到一年。 _(TechCrunch)_
+- **[OpenAI 发布 GPT-6.1 Terra：更便宜的视觉推理与 Computer Use 模型](https://openai.com/index/introducing-gpt-6-1-terra)** — 面向工作日文书与桌面操作，官方称标准 API 价较 GPT-5.6 Terra / GPT-6.1 Sol 低约 50%（约每百万输入 1 美元、输出 5 美元）；Agents’ Last Exam 中等推理较前代高约 15 个百分点且成本约三分之一，Terminal-Bench 4.0 最高推理约 50.3%；即日起向 Plus/Pro/Enterprise/Edu 的 ChatGPT Work 与 Codex 开放，API 模型名 `gpt-6.1-terra`。 _(OpenAI)_
+- **[GitHub 前 CEO 正式推出面向 AI Agent 的代码平台 Entire](https://www.theverge.com/ai-artificial-intelligence/1018817/githubs-former-ceo-launched-a-competing-platform-for-ai-agents)** — Thomas Dohmke 在 7 月预告后正式上线去中心化代码托管与评审平台；面向 Agent 协作，用「Trails」替代传统 Pull Request，并在每次代码推送时用可定制评测由 Agent 打分。 _(The Verge)_
+
 ### 2026-10-26
 
 - **[瑞典政府办公厅封锁 ChatGPT 与 Claude，仅保留通过安全审查的 Copilot](https://decrypt.co/381763/sweden-government-offices-block-chatgpt-claude)** — 自 10 月 26 日起在员工电脑屏蔽两者网页端，数字化总监称无正式协议的开放 AI 服务会带来信息安全后果，并已见敏感信息被不当输入；税务局等机构此前已有类似禁令，内部自建平台仍可有限访问被禁模型。 _(Decrypt / Sveriges Radio)_
@@ -88,15 +96,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 ### 2026-10-20
 
 - **[Meta 开源 Muse Glimmer 30B：可在消费级硬件本地运行的端侧 Agent 模型](https://ai.meta.com/research/publications/muse-glimmer-30b-an-on-device-agentic-model/)** — 30B 参数并带视觉感知编码器，把多步推理、工具调用与失败恢复集成进单一模型，量化到约 4-bit 后单 GPU 即可本地推理、无需云端；官方称在工具调用与多步规划等 Agent 评测上领先 Gemma4-31B、Qwen3.6-27B 等同级模型，以 Apache 2.0 许可开源。 _(Meta AI Research)_
-
-### 2026-10-19
-
-- **[Anthropic 拿出 5% 股份设立公益基金，比例可随估值上涨继续追加](https://www.anthropic.com/news/public-benefit-fund)** — 新设全资 LLC「Anthropic Public Benefit Fund」，经股东批准后先注入 5% 股份，估值每较基准上涨 50%，董事会可再追加 2%；连同创始人与员工的捐赠承诺，约 20% 股份将用于公共利益，AI 对就业的影响是重点方向之一。 _(Anthropic)_
-- **[Disney 同意接收 Character.AI 大部分员工，后者已申请破产保护](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/)** — 破产法庭文件显示，Disney 将向至少 60 名员工（含 CEO）发出 offer，预计年薪酬总额约 6000 万美元；该报价属于「假马竞标」，其他买家仍可出更高价，且需破产法官批准。 _(TechCrunch)_
-- **[Replit 改以 OpenAI 作为 Replit Agent 的默认模型合作方](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)** — CEO Amjad Masad 称这是基于成本、合作关系与性能的决定，随后澄清 Replit 仍保持模型中立，用户依旧可以在模型选择器里选用 Claude。 _(TechCrunch)_
-- **[网站开始集体拒绝 AI Agent：Amazon、Delta、摩根大通等相继设限](https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web)** — Meta Muse、Grok、OpenAI Dots 等 Agent 的用户反映在多家主流网站受阻：Yelp 只放行付费数据授权的 Agent，Delta 阻止 Agent 代订机票，摩根大通与嘉信理财出于安全考虑禁止 Agent 访问账户。 _(The Verge)_
-- **[NVIDIA RTX Spark 笔记本正式开售：128GB 统一内存把本地 AI 装进轻薄本](https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/)** — Blackwell RTX GPU 与 Grace CPU 合封为一颗超级芯片，最高 1 PFLOP AI 算力、128GB 统一内存；ASUS、Dell、HP、Lenovo、Microsoft、MSI 首批出货，起售价 2,399 美元。 _(NVIDIA)_
-- **[Odyssey 把果蝇大脑模拟放进 Odyssey-3 世界模型，在生成的场景中自主飞行](https://digg.com/science/cvnxmfz7)** — Odyssey 于 10 月 17 日发布演示视频，称基于果蝇连接组的智能体能在实时生成的 3D 世界里自主飞行；但官方尚未公开所用连接组、神经模拟方法与输入输出映射，也没有论文或代码。 _(Digg / Odyssey)_
 
 ---
 
