@@ -48,6 +48,11 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-10-28
+
+- **[Google DeepMind 发布 Genie 4：原生多模态实时世界模拟](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)** — 10 月 27 日发布，可同步生成音乐/环境音与可交互对话，结合 Gemini 维持场景连贯；可用自然语言实时改天气、镜头与人物，已向受信测试者开放研究预览，并将先对 Google AI Ultra 的 Project Genie 与 Gemini API / AI Studio 早期合作方开放。 _(Google DeepMind)_
+- **[Cognition 升级 Devin Security：用前沿网络模型端到端找洞与修洞](https://cognition.ai/blog/devin-security)** — 10 月 26 日推出重大升级，深度扫描由 Claude Mythos 等前沿网络安全模型驱动，按与客户共建的威胁模型评估可利用性与影响并在真实 VM 上并行验证修复；同时承诺投入数亿美元 Devin 积分，为企业提供免费扫描与修复额度。 _(Cognition)_
+
 ### 2026-10-27
 
 - **[Anthropic 正式提交 IPO 文件，拟以 ANT 登陆纳斯达克](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/)** — 上半年营收约 163 亿美元（去年同期约 12 亿），经营亏损收窄至约 6.93 亿美元，净亏损约 807 亿美元主因可转债公允价值变动；企业客户中年费超 10 万美元的逾 1.19 万家，募资规模与定价尚未披露，七位联合创始人将通过 Founder LLC 合计掌握 50.1% 投票权。 _(TechCrunch)_
@@ -92,10 +97,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[Anthropic 上线 OSS Scanner：免费用最强模型为关键开源项目定期扫漏洞](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)** — 维护者通过向 GitHub 仓库提 PR 自愿加入，每份报告附可复现样例与候选补丁；报告完全由模型生成、不经人工审核，内测中 97 个高危发现有 88% 达到其漏洞披露标准。 _(Anthropic)_
 - **[NVIDIA 开源 Flora：给机器人视频自动打标、打分的数据引擎模型](https://research.nvidia.com/labs/gear/flora/)** — 包含 Flora-TempSeg（子任务切分）、Flora-Captioner（带时间戳的动作描述）与 Flora-Rewarder（结果/过程/评分细则奖励）三个模型，是 GR00T 机器人背后的数据引擎，权重已上架 Hugging Face（非商用研究许可）。 _(NVIDIA Research)_
 - **[Radical Numerics：首个 AI 设计的噬菌体疗法用于人类患者](https://www.radicalnumerics.ai/blog/omnii-phage)** — 其生物模型 Omnii-1 设计了针对耐药大肠杆菌的 T7 噬菌体变体，经 FDA 授权的单患者同情用药途径给药；实验室中可清除患者菌株，但公司未公开临床结果，仍需更大规模研究验证。 _(Radical Numerics)_
-
-### 2026-10-20
-
-- **[Meta 开源 Muse Glimmer 30B：可在消费级硬件本地运行的端侧 Agent 模型](https://ai.meta.com/research/publications/muse-glimmer-30b-an-on-device-agentic-model/)** — 30B 参数并带视觉感知编码器，把多步推理、工具调用与失败恢复集成进单一模型，量化到约 4-bit 后单 GPU 即可本地推理、无需云端；官方称在工具调用与多步规划等 Agent 评测上领先 Gemma4-31B、Qwen3.6-27B 等同级模型，以 Apache 2.0 许可开源。 _(Meta AI Research)_
 
 ---
 
