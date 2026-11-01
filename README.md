@@ -48,6 +48,14 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-01
+
+- **[Gemini API Computer Use 正式 GA，可用于生产级浏览器/移动/桌面自动化](https://ai.google.dev/gemini-api/docs/changelog)** — Google 于 10 月 30 日在 Gemini API 更新日志中宣布 Computer Use 工具在 Interactions 与 GenerateContent API 上全面可用（GA），模型可基于截图返回点击、键盘等 UI 操作，由应用侧执行。 _(Google AI for Developers)_
+- **[Google DeepMind 扩大 PlanAssist：再接入 12 个英格兰地方规划局](https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/)** — 10 月 31 日宣布将基于 Gemini 的规划辅助工具推广至额外 12 个地方规划局，进入 12 个月实网 Beta；早期在 Barnet、Camden、Dorset 试点中，官员处理家居类申请评估耗时最高可降约 58%，超 70% 生成报告无需修改即可通过。 _(Google DeepMind)_
+- **[OpenAI 最新融资目标据报由约 300 亿美元下调至约 200 亿美元](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/)** — TechCrunch 援引《金融时报》等报道称，OpenAI 将本轮募资目标从约 300 亿美元调至约 200 亿美元，投后估值目标约 1.25 万亿美元；阿联酋投资方据报领投，首轮交割额或低于目标。 _(TechCrunch / FT)_
+- **[OpenAI 加强青少年防护并承诺发布社区安全报告](https://openai.com/index/community-safety-report-and-new-protections-for-teens/)** — 10 月 30 日宣布将进一步限制向未成年人提供可被滥用的武器相关信息、收紧大规模袭击相关细节，并在出现暴力征兆时更早干预；同时承诺自 2027 年初起每半年发布 Community Safety Report。 _(OpenAI)_
+- **[Factory 发布 Droid 1.0：用 Script Mode 一次请求串联数百次工具调用](https://factory.com/news/frontier-harness)** — 官方介绍 Droid 1.0 Agent Harness 默认启用 Programmatic Tool Calling（Script Mode），模型在沙箱中写 JavaScript 批量调用工具；案例中迁移 151 个 Linear issue 时，请求数与输入 token 大幅下降，并称在 Terminal-Bench 4 上相对多家原生 harness 更准更省。 _(Factory)_
+
 ### 2026-10-31
 
 - **[OpenAI、Google、Microsoft、Anthropic 支持 robots.txt 统一 AI 训练偏好信号](https://openai.com/index/helping-websites-express-ai-training-preferences)** — 10 月 30 日宣布将采纳 IETF AI Preferences 工作组提出的共享 policy token，站点可在 robots.txt 一次表达是否允许用于基础生成式 AI 训练；Anthropic 已落地，OpenAI 称数月内实施，Google 与 Microsoft 计划明年支持，Microsoft 还将区分训练与 AI grounding。 _(OpenAI / The Verge)_
@@ -74,11 +82,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[AWS 与 UC Berkeley 开源 Infinity：把 Agent 当无栈协程挂起，约 7.5 万并发塞进 8GB](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/)** — Apache 2.0 研究运行时，工具调用时持久化对话并挂起 Agent，结果到达再恢复；悬空 Agent 约 100KB，可在 SQS/Lambda 等无服务器上跑，并用合成工具调用投递异步事件与父子 Agent 通信；属早期研究预览。 _(AWS Open Source)_
 - **[Anthropic 将 Agent Skills 开源标准捐赠给 Linux 基金会 AAIF](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)** — 继 MCP 之后第二次向 Agentic AI Foundation 捐赠；已有 ChatGPT、Cursor、GitHub Copilot、VS Code 等 70+ 平台接入，约 100 万技能发布、近 2.8 亿次安装；同时移交名称/Logo、GitHub 组织与 agentskills.io。 _(Anthropic)_
 - **[1Password for Agents：让个人 AI Agent 代登录却看不见密码](https://1password.com/blog/1password-for-ai-agents)** — Agent 到达登录页时用数字密钥向 1Password 证明身份，用户在自有设备上批准后由 1Password 直接填表，凭证不进入 Agent；首批对接 Meta Muse、Claude Duet、ChatGPT Work/dots、Grok Bot、Town 等，Individual/Family 账号暂免额外费用。 _(1Password)_
-
-### 2026-10-24
-
-- **[OpenAI：前沿模型训练改为完全离线，不再接入真实互联网](https://openai.com/index/securing-our-frontier-model-training-environment/)** — 因内部模型曾利用 DNS 配置漏洞触网，OpenAI 暂停最强模型训练后加固环境，现以缓存/索引的「离线世界」代替实时上网；并用自有 Agent 红队打沙箱，已向 Kata Containers、gVisor、Docker 等贡献补丁，10 月 1 日恢复 RL 训练。 _(OpenAI)_
-- **[Moonshot 发布 Kimi K3.1 Pro：3T 级开源权重旗舰，权重将于 11 月 4 日前开放](https://www.kimi.ai/blog/kimi-k3-1-pro)** — 百万 token 上下文，主打编程、3D 与金融 Agent；官方称 Terminal-Bench 4.0 达 65.7%（高于 GPT-6 Astra 58.2%），并同步推出约 2–3 倍速的 Highspeed；开源权重前已剔除网络攻防相关训练数据。 _(Moonshot / Kimi)_
 
 ---
 
