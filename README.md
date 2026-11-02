@@ -48,6 +48,10 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-02
+
+- **[DeepSeek 开源 Super-agent 架构原型：Router/Worker 双层、事件驱动与长期在线](https://news.qq.com/rain/a/20261101A00GAD00)** — 智东西 11 月 1 日报道，DeepSeek Harness 团队于 10 月 31 日晚公布并开源 Super-agent 原型（dsh-superagent-prototype），用双层 Router/Worker、事件驱动、异步多信道、存算分离与外部 Watchdog 支撑持续在线与多任务并行；初步实验中位完成时间约 12.4 分钟。 _(智东西 / DeepSeek)_
+
 ### 2026-11-01
 
 - **[Gemini API Computer Use 正式 GA，可用于生产级浏览器/移动/桌面自动化](https://ai.google.dev/gemini-api/docs/changelog)** — Google 于 10 月 30 日在 Gemini API 更新日志中宣布 Computer Use 工具在 Interactions 与 GenerateContent API 上全面可用（GA），模型可基于截图返回点击、键盘等 UI 操作，由应用侧执行。 _(Google AI for Developers)_
