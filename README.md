@@ -48,6 +48,11 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-03
+
+- **[美团发布 LongCat-2.5：1.6T 原生多模态长程 Agent 模型，全程国产算力](https://longcat.ai/blog/longcat-2.5/)** — 11 月 2 日发布，总参数约 1.6 万亿、约 48B 激活，强化原生视觉理解与智能体编程；官网与 API 同步上线，技术博客称多项基准介于 Claude Opus 4.8 与 Opus 5 之间。 _(美团 / LongCat)_
+- **[Anthropic 修订 IPO 招股书：Q3 营收约 170 亿美元，算力承诺约 8954 亿](https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html)** — 11 月 2 日向 SEC 提交修订版 S-1，前九个月营收约 332.4 亿美元；Q3 营收约 170 亿、同比增长约 1127%，净亏损约 232.9 亿（多为可转债公允价值变动），并披露约 8954 亿美元算力与基建采购承诺。 _(CNBC)_
+
 ### 2026-11-02
 
 - **[DeepSeek 开源 Super-agent 架构原型：Router/Worker 双层、事件驱动与长期在线](https://news.qq.com/rain/a/20261101A00GAD00)** — 智东西 11 月 1 日报道，DeepSeek Harness 团队于 10 月 31 日晚公布并开源 Super-agent 原型（dsh-superagent-prototype），用双层 Router/Worker、事件驱动、异步多信道、存算分离与外部 Watchdog 支撑持续在线与多任务并行；初步实验中位完成时间约 12.4 分钟。 _(智东西 / DeepSeek)_
@@ -78,14 +83,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[SpaceX 与 Apollo 敲定约 400 亿美元 GPU 融资租赁，自称「最大已承诺 GPU 融资」](https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/)** — Apollo 管理实体购入芯片与机房设备后租给 SpaceX，租期约 5–5.25 年，预计年底前交割、2027 上半年起陆续起租，用于 Grok 与云算力扩张，并指向 Nvidia 下一代 Vera Rubin；公司称 AI 基建投资回收期不到一年。 _(TechCrunch)_
 - **[OpenAI 发布 GPT-6.1 Terra：更便宜的视觉推理与 Computer Use 模型](https://openai.com/index/introducing-gpt-6-1-terra)** — 面向工作日文书与桌面操作，官方称标准 API 价较 GPT-5.6 Terra / GPT-6.1 Sol 低约 50%（约每百万输入 1 美元、输出 5 美元）；Agents’ Last Exam 中等推理较前代高约 15 个百分点且成本约三分之一，Terminal-Bench 4.0 最高推理约 50.3%；即日起向 Plus/Pro/Enterprise/Edu 的 ChatGPT Work 与 Codex 开放，API 模型名 `gpt-6.1-terra`。 _(OpenAI)_
 - **[GitHub 前 CEO 正式推出面向 AI Agent 的代码平台 Entire](https://www.theverge.com/ai-artificial-intelligence/1018817/githubs-former-ceo-launched-a-competing-platform-for-ai-agents)** — Thomas Dohmke 在 7 月预告后正式上线去中心化代码托管与评审平台；面向 Agent 协作，用「Trails」替代传统 Pull Request，并在每次代码推送时用可定制评测由 Agent 打分。 _(The Verge)_
-
-### 2026-10-26
-
-- **[瑞典政府办公厅封锁 ChatGPT 与 Claude，仅保留通过安全审查的 Copilot](https://decrypt.co/381763/sweden-government-offices-block-chatgpt-claude)** — 自 10 月 26 日起在员工电脑屏蔽两者网页端，数字化总监称无正式协议的开放 AI 服务会带来信息安全后果，并已见敏感信息被不当输入；税务局等机构此前已有类似禁令，内部自建平台仍可有限访问被禁模型。 _(Decrypt / Sveriges Radio)_
-- **[英国成立全球首个 AI 生物安全实验室，政府出资 1 亿英镑](https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab)** — AI Biosecurity Lab（AIBL）为独立非营利机构，聚焦用前沿 AI 更早发现生物威胁并加速疫苗/药物研发；OpenAI 与 Anthropic 各承诺最高约 1 亿英镑的算力/模型额度与技术支持，并与 Google DeepMind、Basecamp Research 合作。 _(GOV.UK)_ 
-- **[AWS 与 UC Berkeley 开源 Infinity：把 Agent 当无栈协程挂起，约 7.5 万并发塞进 8GB](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/)** — Apache 2.0 研究运行时，工具调用时持久化对话并挂起 Agent，结果到达再恢复；悬空 Agent 约 100KB，可在 SQS/Lambda 等无服务器上跑，并用合成工具调用投递异步事件与父子 Agent 通信；属早期研究预览。 _(AWS Open Source)_
-- **[Anthropic 将 Agent Skills 开源标准捐赠给 Linux 基金会 AAIF](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)** — 继 MCP 之后第二次向 Agentic AI Foundation 捐赠；已有 ChatGPT、Cursor、GitHub Copilot、VS Code 等 70+ 平台接入，约 100 万技能发布、近 2.8 亿次安装；同时移交名称/Logo、GitHub 组织与 agentskills.io。 _(Anthropic)_
-- **[1Password for Agents：让个人 AI Agent 代登录却看不见密码](https://1password.com/blog/1password-for-ai-agents)** — Agent 到达登录页时用数字密钥向 1Password 证明身份，用户在自有设备上批准后由 1Password 直接填表，凭证不进入 Agent；首批对接 Meta Muse、Claude Duet、ChatGPT Work/dots、Grok Bot、Town 等，Individual/Family 账号暂免额外费用。 _(1Password)_
 
 ---
 
