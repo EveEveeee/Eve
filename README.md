@@ -48,6 +48,10 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-04
+
+- **[OpenAI 分享物理世界工程加速：Astra 设计整机，硬件团队用量增 23 倍](https://openai.com/index/accelerating-engineering-for-the-physical-world)** — 11 月 3 日发布，展示 GPT‑6 / Astra 在机械、电气与端到端系统设计上的进展：两名成员用 Astra 在约一周内设计出可对话 Codex 的测试设备（外壳、PCB、固件），合同制造商约一月内做出小批量原型；自 2 月起硬件团队 token 用量增长约 23 倍，并扩展与 Chip Ganassi Racing、马自达等合作。 _(OpenAI)_
+
 ### 2026-11-03
 
 - **[美团发布 LongCat-2.5：1.6T 原生多模态长程 Agent 模型，全程国产算力](https://longcat.ai/blog/longcat-2.5/)** — 11 月 2 日发布，总参数约 1.6 万亿、约 48B 激活，强化原生视觉理解与智能体编程；官网与 API 同步上线，技术博客称多项基准介于 Claude Opus 4.8 与 Opus 5 之间。 _(美团 / LongCat)_
@@ -75,14 +79,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 - **[Google DeepMind 发布 Genie 4：原生多模态实时世界模拟](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)** — 10 月 27 日发布，可同步生成音乐/环境音与可交互对话，结合 Gemini 维持场景连贯；可用自然语言实时改天气、镜头与人物，已向受信测试者开放研究预览，并将先对 Google AI Ultra 的 Project Genie 与 Gemini API / AI Studio 早期合作方开放。 _(Google DeepMind)_
 - **[Cognition 升级 Devin Security：用前沿网络模型端到端找洞与修洞](https://cognition.ai/blog/devin-security)** — 10 月 26 日推出重大升级，深度扫描由 Claude Mythos 等前沿网络安全模型驱动，按与客户共建的威胁模型评估可利用性与影响并在真实 VM 上并行验证修复；同时承诺投入数亿美元 Devin 积分，为企业提供免费扫描与修复额度。 _(Cognition)_
-
-### 2026-10-27
-
-- **[Anthropic 正式提交 IPO 文件，拟以 ANT 登陆纳斯达克](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/)** — 上半年营收约 163 亿美元（去年同期约 12 亿），经营亏损收窄至约 6.93 亿美元，净亏损约 807 亿美元主因可转债公允价值变动；企业客户中年费超 10 万美元的逾 1.19 万家，募资规模与定价尚未披露，七位联合创始人将通过 Founder LLC 合计掌握 50.1% 投票权。 _(TechCrunch)_
-- **[Meta 启动最高约 950 亿美元股权融资计划，支撑 AI 基建与「个人超级智能」](https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html)** — 先进行约 350 亿美元承销发行（约 225 亿普通股 + 125 亿强制可转优先股存托凭证），后续拟用无投票权 Class C 做约 600 亿 ATM；Nvidia、AMD、Broadcom 有意合计认购至多约 50 亿美元，全年资本开支指引已上调至 1350–1450 亿美元。 _(CNBC / Meta)_
-- **[SpaceX 与 Apollo 敲定约 400 亿美元 GPU 融资租赁，自称「最大已承诺 GPU 融资」](https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/)** — Apollo 管理实体购入芯片与机房设备后租给 SpaceX，租期约 5–5.25 年，预计年底前交割、2027 上半年起陆续起租，用于 Grok 与云算力扩张，并指向 Nvidia 下一代 Vera Rubin；公司称 AI 基建投资回收期不到一年。 _(TechCrunch)_
-- **[OpenAI 发布 GPT-6.1 Terra：更便宜的视觉推理与 Computer Use 模型](https://openai.com/index/introducing-gpt-6-1-terra)** — 面向工作日文书与桌面操作，官方称标准 API 价较 GPT-5.6 Terra / GPT-6.1 Sol 低约 50%（约每百万输入 1 美元、输出 5 美元）；Agents’ Last Exam 中等推理较前代高约 15 个百分点且成本约三分之一，Terminal-Bench 4.0 最高推理约 50.3%；即日起向 Plus/Pro/Enterprise/Edu 的 ChatGPT Work 与 Codex 开放，API 模型名 `gpt-6.1-terra`。 _(OpenAI)_
-- **[GitHub 前 CEO 正式推出面向 AI Agent 的代码平台 Entire](https://www.theverge.com/ai-artificial-intelligence/1018817/githubs-former-ceo-launched-a-competing-platform-for-ai-agents)** — Thomas Dohmke 在 7 月预告后正式上线去中心化代码托管与评审平台；面向 Agent 协作，用「Trails」替代传统 Pull Request，并在每次代码推送时用可定制评测由 Agent 打分。 _(The Verge)_
 
 ---
 
