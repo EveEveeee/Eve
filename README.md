@@ -48,6 +48,13 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-05
+
+- **[腾讯发布 Hy4：开源旗舰模型首次加入视觉理解与 computer-use](https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/)** — 11 月 4 日宣布最新一代大模型 Hy4，首次加入视觉理解与 computer-use（CLI/GUI），强化长程 agent 与指令跟随；权重与 system card 将陆续开源，已接入 TokenHub、WorkBuddy、CodeBuddy、元宝等，并称同价约每百万输入 0.90 / 输出 2.70 美元。 _(腾讯)_
+- **[vLLM 首日支持 Kimi K3.1 Pro：稀疏注意力与跨芯片 agent 服务](https://vllm.ai/blog/2026-11-04-kimi-k31-pro)** — 11 月 4 日发布，为 Moonshot 2.8T（约 104B 激活）开放权重模型提供 Day-0 服务支持，覆盖 NVIDIA/AMD/TPU/阿里平头哥；新增 DSA 稀疏注意力、打包 KV、DCP 与 zero-mismatch RL，并给出 AgentX 吞吐数据。 _(vLLM)_
+- **[OpenAI 宣布收购 Pierre：把 Code Storage 与 Diff 能力并入 Codex](https://openai.com/index/openai-to-acquire-pierre/)** — 11 月 4 日官宣将收购 Pierre Computer Company；其 Trees/Diffs 已用于 Codex 浏览与审阅，计划将 Code Storage 的 Git 存贮与历史能力并入 Codex，开源项目继续保持开源，交易尚待监管批准。 _(OpenAI)_
+- **[GitHub Copilot 登陆 JetBrains Air：本地与云端 ACP Agent 任务](https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/)** — 11 月 3 日 Changelog 宣布 Copilot 可通过 Agent Client Protocol 在 JetBrains Air 中委派编码任务，支持 IDE 本地会话与隔离 Docker 云任务，云端用量走 Copilot 订阅而非 JetBrains AI credits。 _(GitHub)_
+
 ### 2026-11-04
 
 - **[OpenAI 分享物理世界工程加速：Astra 设计整机，硬件团队用量增 23 倍](https://openai.com/index/accelerating-engineering-for-the-physical-world)** — 11 月 3 日发布，展示 GPT‑6 / Astra 在机械、电气与端到端系统设计上的进展：两名成员用 Astra 在约一周内设计出可对话 Codex 的测试设备（外壳、PCB、固件），合同制造商约一月内做出小批量原型；自 2 月起硬件团队 token 用量增长约 23 倍，并扩展与 Chip Ganassi Racing、马自达等合作。 _(OpenAI)_
@@ -74,11 +81,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[OpenAI、Google、Microsoft、Anthropic 支持 robots.txt 统一 AI 训练偏好信号](https://openai.com/index/helping-websites-express-ai-training-preferences)** — 10 月 30 日宣布将采纳 IETF AI Preferences 工作组提出的共享 policy token，站点可在 robots.txt 一次表达是否允许用于基础生成式 AI 训练；Anthropic 已落地，OpenAI 称数月内实施，Google 与 Microsoft 计划明年支持，Microsoft 还将区分训练与 AI grounding。 _(OpenAI / The Verge)_
 - **[Mistral 开源万亿参数 Large 4（Le Chonk）权重，主打编程与防御性网络安全](https://mistral.ai/news/mistral-large-4-oss/)** — 10 月 29 日发布改进版开源权重（约 1T 总参数 / ~52B 激活、多模态、1M 上下文），官方称在开源模型中领先 Coding Agent 相关榜单，相对 GLM-5.3 平均少用约 47% token；权重上架 Hugging Face，API 定价约每百万输入 0.70 / 输出 2.10 美元。 _(Mistral AI)_
 - **[Google Gemini 现可在对话内生成并编辑 Docs / Sheets / 幻灯片与 PDF](https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs)** — 10 月 29 日起面向全部 Gemini 用户开放：可在聊天中预览、全屏编辑并高亮提问改文件；PDF 支持网页与移动端，其余格式目前仅网页版。 _(The Verge)_
-
-### 2026-10-28
-
-- **[Google DeepMind 发布 Genie 4：原生多模态实时世界模拟](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)** — 10 月 27 日发布，可同步生成音乐/环境音与可交互对话，结合 Gemini 维持场景连贯；可用自然语言实时改天气、镜头与人物，已向受信测试者开放研究预览，并将先对 Google AI Ultra 的 Project Genie 与 Gemini API / AI Studio 早期合作方开放。 _(Google DeepMind)_
-- **[Cognition 升级 Devin Security：用前沿网络模型端到端找洞与修洞](https://cognition.ai/blog/devin-security)** — 10 月 26 日推出重大升级，深度扫描由 Claude Mythos 等前沿网络安全模型驱动，按与客户共建的威胁模型评估可利用性与影响并在真实 VM 上并行验证修复；同时承诺投入数亿美元 Devin 积分，为企业提供免费扫描与修复额度。 _(Cognition)_
 
 ---
 
