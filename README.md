@@ -48,6 +48,15 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-07
+
+- **[OpenAI 发布 GPT‑6 Cyber：对齐的网络安全 agent 模型](https://openai.com/index/introducing-gpt-6-cyber)** — 11 月 5 日官宣面向授权安全研究的 GPT‑6 Cyber：ExploitGym 从 32.1% 升至 48.5%，越权攻击率大幅下降；已用于发现 Firefox 81 个高危漏洞与大量 Linux 提权路径，经 Daybreak Red 分阶段开放。 _(OpenAI)_
+- **[Meta 将 Muse Wonder 能力下放到 Muse 与 Meta AI 专用模型](https://research.meta.ai/blog/specialized-models-for-muse-and-metaai)** — 11 月 6 日宣布用 Muse Wonder 训练专用版本并上线 Muse / Meta AI：Active Memory 关键关键上下文遗忘约降至 2.4 倍，Active Focus 在突发问题上的任务完成提升约 67%。 _(Meta AI Research)_
+- **[Google DeepMind 发布 Gemini Omni 1.2 Flash：更长视频与对话式剪辑](https://deepmind.google/models/model-cards/gemini-omni-1-2-flash/)** — 11 月 5 日 model card 更新：支持从文本/图像/音视频生成带音频的高分辨率视频，并可通过多轮对话编辑；已接入 Gemini App、AI Studio、Gemini API、Vertex AI 等渠道。 _(Google DeepMind)_
+- **[商汤正式发布 SenseNova 6.8 Flash：办公智能体与动态设计](https://www.sensetime.com/en/news/sensenova-6-8-flash-release-20261103-1421)** — 11 月 5 日宣布多模态 agent 正式版，强化长期记忆与主动交互，扩展动态 PPT、SVG/Web、Three.js 与 Blender 3D 等工作流；Token Plan 提供免费试用额度。 _(商汤科技)_
+- **[AWS Bedrock AgentCore Web Answer 正式 GA](https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/)** — 11 月 5 日宣布 Web Answer 在 AgentCore 上线：一次 MCP 调用即可返回带引用的综合网页答案，支持域名白/黑名单与发布日期过滤，首发美东（弗吉尼亚）。 _(AWS)_
+- **[Thinking Machines 发布 Inkling 2 Small：594B MoE 开源路径模型](https://thinkingmachines.ai/news/inkling-2-small/)** — 11 月 5 日发布第二代 Inkling（594B 总参 / 17B 激活、支持图像与可变 effort），先经 Tinker 闭源可用，计划安全评测后以 Apache 2.0 开源权重。 _(Thinking Machines Lab)_
+
 ### 2026-11-05
 
 - **[腾讯发布 Hy4：开源旗舰模型首次加入视觉理解与 computer-use](https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/)** — 11 月 4 日宣布最新一代大模型 Hy4，首次加入视觉理解与 computer-use（CLI/GUI），强化长程 agent 与指令跟随；权重与 system card 将陆续开源，已接入 TokenHub、WorkBuddy、CodeBuddy、元宝等，并称同价约每百万输入 0.90 / 输出 2.70 美元。 _(腾讯)_
@@ -75,12 +84,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[OpenAI 最新融资目标据报由约 300 亿美元下调至约 200 亿美元](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/)** — TechCrunch 援引《金融时报》等报道称，OpenAI 将本轮募资目标从约 300 亿美元调至约 200 亿美元，投后估值目标约 1.25 万亿美元；阿联酋投资方据报领投，首轮交割额或低于目标。 _(TechCrunch / FT)_
 - **[OpenAI 加强青少年防护并承诺发布社区安全报告](https://openai.com/index/community-safety-report-and-new-protections-for-teens/)** — 10 月 30 日宣布将进一步限制向未成年人提供可被滥用的武器相关信息、收紧大规模袭击相关细节，并在出现暴力征兆时更早干预；同时承诺自 2027 年初起每半年发布 Community Safety Report。 _(OpenAI)_
 - **[Factory 发布 Droid 1.0：用 Script Mode 一次请求串联数百次工具调用](https://factory.com/news/frontier-harness)** — 官方介绍 Droid 1.0 Agent Harness 默认启用 Programmatic Tool Calling（Script Mode），模型在沙箱中写 JavaScript 批量调用工具；案例中迁移 151 个 Linear issue 时，请求数与输入 token 大幅下降，并称在 Terminal-Bench 4 上相对多家原生 harness 更准更省。 _(Factory)_
-
-### 2026-10-31
-
-- **[OpenAI、Google、Microsoft、Anthropic 支持 robots.txt 统一 AI 训练偏好信号](https://openai.com/index/helping-websites-express-ai-training-preferences)** — 10 月 30 日宣布将采纳 IETF AI Preferences 工作组提出的共享 policy token，站点可在 robots.txt 一次表达是否允许用于基础生成式 AI 训练；Anthropic 已落地，OpenAI 称数月内实施，Google 与 Microsoft 计划明年支持，Microsoft 还将区分训练与 AI grounding。 _(OpenAI / The Verge)_
-- **[Mistral 开源万亿参数 Large 4（Le Chonk）权重，主打编程与防御性网络安全](https://mistral.ai/news/mistral-large-4-oss/)** — 10 月 29 日发布改进版开源权重（约 1T 总参数 / ~52B 激活、多模态、1M 上下文），官方称在开源模型中领先 Coding Agent 相关榜单，相对 GLM-5.3 平均少用约 47% token；权重上架 Hugging Face，API 定价约每百万输入 0.70 / 输出 2.10 美元。 _(Mistral AI)_
-- **[Google Gemini 现可在对话内生成并编辑 Docs / Sheets / 幻灯片与 PDF](https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs)** — 10 月 29 日起面向全部 Gemini 用户开放：可在聊天中预览、全屏编辑并高亮提问改文件；PDF 支持网页与移动端，其余格式目前仅网页版。 _(The Verge)_
 
 ---
 
