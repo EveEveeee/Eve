@@ -48,6 +48,10 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-08
+
+- **[Meta 推出 Muse Spaces：用描述即可生成个性化应用内体验](https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/)** — 11 月 6 日官宣在 Muse 中推出 Spaces：用户描述想法（如礼物清单、行程板或小游戏）即可生成自定义体验，可放入侧边栏或主标签并按日程切换；连接常用应用后会在后台自动更新，现已在 Muse 可用范围内上线。 _(Meta)_
+
 ### 2026-11-07
 
 - **[OpenAI 发布 GPT‑6 Cyber：对齐的网络安全 agent 模型](https://openai.com/index/introducing-gpt-6-cyber)** — 11 月 5 日官宣面向授权安全研究的 GPT‑6 Cyber：ExploitGym 从 32.1% 升至 48.5%，越权攻击率大幅下降；已用于发现 Firefox 81 个高危漏洞与大量 Linux 提权路径，经 Daybreak Red 分阶段开放。 _(OpenAI)_
