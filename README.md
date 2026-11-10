@@ -48,6 +48,15 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-10
+
+- **[Meta 发布 Muse Ember：面向 Agent 高频子任务的轻量高效模型](https://research.meta.ai/blog/muse-ember)** — 11 月 9 日官宣 Muse Ember：面向工具调用、编码子任务、路由、抽取与长文档解析；1M 上下文、最高约 512K 输出，API 定价约每百万输入 $0.10 / 输出 $0.50；可与 Muse Wonder 搭配做规划与规模化执行。 _(Meta)_
+- **[Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2)** — 11 月 9 日升级面向高难度技术工作的模型：编码 / 推理 / 视觉更强，输出约提速 30%，标准价降至每百万输入 $8 / 输出 $40；Fable 全面可用，Mythos 限经核验的安全与生命科学组织，另有可选 fast mode。 _(Anthropic)_
+- **[Google Antigravity 上线 Knowledge Work 界面](https://9to5google.com/2026/11/09/google-antigravity-knowledge-work/)** — 11 月 9 日报道：在原有软件工程体验旁新增 Knowledge Work，面向研究、数据分析、文档 / 演示稿与日常自动化；底层 Agent 能力不变，Settings → General → Interface Layout 可切换。 _(9to5Google)_
+- **[ChatGPT Enterprise 登陆 AWS Marketplace](https://openai.com/index/chatgpt-enterprise-aws-marketplace)** — 11 月 9 日官宣可通过 AWS Marketplace 采购与结算 ChatGPT Enterprise（含 ChatGPT Work、Codex、dots），合格消费可计入 AWS 承诺；医疗与金融服务版亦对合格客户开放。 _(OpenAI)_
+- **[Google 发布 TPU 8tx 与 TPU 8i Max](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/)** — 11 月 9 日宣布第八代 TPU 再增两款：8tx 面向机密推理与小规模训练，8i Max 双芯片封装提升大上下文与机架算力密度；同年已累计四款 TPU 系统，并继续推进 TorchTPU 等开源栈。 _(Google)_
+- **[Delight.ai 推出 Customer Agent 与 Midas](https://www.prnewswire.com/news-releases/delightai-launches-two-new-products-to-transform-how-businesses-serve-customers-and-accelerate-growth-302933016.html)** — 11 月 9 日发布：统一购物 / 预约 / 客服 / 留存的 Delight Customer Agent，以及用自然语言自助构建、测试与改进 Agent 的 Midas。 _(Delight.ai / PR Newswire)_
+
 ### 2026-11-08
 
 - **[Meta 推出 Muse Spaces：用描述即可生成个性化应用内体验](https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/)** — 11 月 6 日官宣在 Muse 中推出 Spaces：用户描述想法（如礼物清单、行程板或小游戏）即可生成自定义体验，可放入侧边栏或主标签并按日程切换；连接常用应用后会在后台自动更新，现已在 Muse 可用范围内上线。 _(Meta)_
@@ -76,18 +85,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 - **[美团发布 LongCat-2.5：1.6T 原生多模态长程 Agent 模型，全程国产算力](https://longcat.ai/blog/longcat-2.5/)** — 11 月 2 日发布，总参数约 1.6 万亿、约 48B 激活，强化原生视觉理解与智能体编程；官网与 API 同步上线，技术博客称多项基准介于 Claude Opus 4.8 与 Opus 5 之间。 _(美团 / LongCat)_
 - **[Anthropic 修订 IPO 招股书：Q3 营收约 170 亿美元，算力承诺约 8954 亿](https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html)** — 11 月 2 日向 SEC 提交修订版 S-1，前九个月营收约 332.4 亿美元；Q3 营收约 170 亿、同比增长约 1127%，净亏损约 232.9 亿（多为可转债公允价值变动），并披露约 8954 亿美元算力与基建采购承诺。 _(CNBC)_
-
-### 2026-11-02
-
-- **[DeepSeek 开源 Super-agent 架构原型：Router/Worker 双层、事件驱动与长期在线](https://news.qq.com/rain/a/20261101A00GAD00)** — 智东西 11 月 1 日报道，DeepSeek Harness 团队于 10 月 31 日晚公布并开源 Super-agent 原型（dsh-superagent-prototype），用双层 Router/Worker、事件驱动、异步多信道、存算分离与外部 Watchdog 支撑持续在线与多任务并行；初步实验中位完成时间约 12.4 分钟。 _(智东西 / DeepSeek)_
-
-### 2026-11-01
-
-- **[Gemini API Computer Use 正式 GA，可用于生产级浏览器/移动/桌面自动化](https://ai.google.dev/gemini-api/docs/changelog)** — Google 于 10 月 30 日在 Gemini API 更新日志中宣布 Computer Use 工具在 Interactions 与 GenerateContent API 上全面可用（GA），模型可基于截图返回点击、键盘等 UI 操作，由应用侧执行。 _(Google AI for Developers)_
-- **[Google DeepMind 扩大 PlanAssist：再接入 12 个英格兰地方规划局](https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/)** — 10 月 31 日宣布将基于 Gemini 的规划辅助工具推广至额外 12 个地方规划局，进入 12 个月实网 Beta；早期在 Barnet、Camden、Dorset 试点中，官员处理家居类申请评估耗时最高可降约 58%，超 70% 生成报告无需修改即可通过。 _(Google DeepMind)_
-- **[OpenAI 最新融资目标据报由约 300 亿美元下调至约 200 亿美元](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/)** — TechCrunch 援引《金融时报》等报道称，OpenAI 将本轮募资目标从约 300 亿美元调至约 200 亿美元，投后估值目标约 1.25 万亿美元；阿联酋投资方据报领投，首轮交割额或低于目标。 _(TechCrunch / FT)_
-- **[OpenAI 加强青少年防护并承诺发布社区安全报告](https://openai.com/index/community-safety-report-and-new-protections-for-teens/)** — 10 月 30 日宣布将进一步限制向未成年人提供可被滥用的武器相关信息、收紧大规模袭击相关细节，并在出现暴力征兆时更早干预；同时承诺自 2027 年初起每半年发布 Community Safety Report。 _(OpenAI)_
-- **[Factory 发布 Droid 1.0：用 Script Mode 一次请求串联数百次工具调用](https://factory.com/news/frontier-harness)** — 官方介绍 Droid 1.0 Agent Harness 默认启用 Programmatic Tool Calling（Script Mode），模型在沙箱中写 JavaScript 批量调用工具；案例中迁移 151 个 Linear issue 时，请求数与输入 token 大幅下降，并称在 Terminal-Bench 4 上相对多家原生 harness 更准更省。 _(Factory)_
 
 ---
 
