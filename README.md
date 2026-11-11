@@ -48,6 +48,11 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-11
+
+- **[OpenAI 推出 Businesses in ChatGPT：企业可认领资料并上线 Business Agent](https://openai.com/index/introducing-businesses-chatgpt)** — 11 月 10 日宣布 beta：企业可通过 Business Hub 认领并更新资料、上传含价格与库存的商品信息，查看提及量、网站点击等聚合洞察；合格的美国电商与在线服务商还可上线 Business Agent，与用户在独立、明确标注的对话中交流，并可作为 ChatGPT Ads 落地页。 _(OpenAI)_
+- **[Google 正式开放 Gemini 4 Carbon：面向长程 Agent 与高难度技术工作](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/)** — 11 月 10 日向开发者、企业与消费者开放：强调网络安全与长程 agent 工作流；导入价与 Gemini 4 Argon 相同（每百万输入 $2 / 输出 $10），亦在 Antigravity 预览 `/swarm` 多 Agent 协作，并向 Google AI Ultra 用户在 Antigravity、Gemini App 与 Search AI Mode 等渠道推送。 _(Google)_
+
 ### 2026-11-10
 
 - **[Meta 发布 Muse Ember：面向 Agent 高频子任务的轻量高效模型](https://research.meta.ai/blog/muse-ember)** — 11 月 9 日官宣 Muse Ember：面向工具调用、编码子任务、路由、抽取与长文档解析；1M 上下文、最高约 512K 输出，API 定价约每百万输入 $0.10 / 输出 $0.50；可与 Muse Wonder 搭配做规划与规模化执行。 _(Meta)_
@@ -80,11 +85,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 ### 2026-11-04
 
 - **[OpenAI 分享物理世界工程加速：Astra 设计整机，硬件团队用量增 23 倍](https://openai.com/index/accelerating-engineering-for-the-physical-world)** — 11 月 3 日发布，展示 GPT‑6 / Astra 在机械、电气与端到端系统设计上的进展：两名成员用 Astra 在约一周内设计出可对话 Codex 的测试设备（外壳、PCB、固件），合同制造商约一月内做出小批量原型；自 2 月起硬件团队 token 用量增长约 23 倍，并扩展与 Chip Ganassi Racing、马自达等合作。 _(OpenAI)_
-
-### 2026-11-03
-
-- **[美团发布 LongCat-2.5：1.6T 原生多模态长程 Agent 模型，全程国产算力](https://longcat.ai/blog/longcat-2.5/)** — 11 月 2 日发布，总参数约 1.6 万亿、约 48B 激活，强化原生视觉理解与智能体编程；官网与 API 同步上线，技术博客称多项基准介于 Claude Opus 4.8 与 Opus 5 之间。 _(美团 / LongCat)_
-- **[Anthropic 修订 IPO 招股书：Q3 营收约 170 亿美元，算力承诺约 8954 亿](https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html)** — 11 月 2 日向 SEC 提交修订版 S-1，前九个月营收约 332.4 亿美元；Q3 营收约 170 亿、同比增长约 1127%，净亏损约 232.9 亿（多为可转债公允价值变动），并披露约 8954 亿美元算力与基建采购承诺。 _(CNBC)_
 
 ---
 
