@@ -48,6 +48,11 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-12
+
+- **[Salesforce 发布 SFR-AutoR&D：自主改进生产级嵌入模型的研发 Agent](https://www.salesforce.com/news/stories/agents-that-improve-ai-models/)** — 11 月 11 日宣布一套可端到端跑研究循环的 Agent：给定目标、系统与算力预算后提出假设、实现方法并对照基线实验，仅在有证据且安全时保留改动；已用于改进 Data Cloud 所用的 SFR-Embedding V3，并在开源 EmbeddingGemma 2 上得到质量与延迟更优的 SFR-Embedding v4。 _(Salesforce)_
+- **[Anthropic 推出 Claude Whiteboards、Sheets，并将 Dashboards 升级为 Claude Data](https://claude.com/resources/articles/sheets-whiteboards-data)** — 11 月 10 日宣布：Whiteboards 与 Sheets 以 beta 登陆所有付费计划，团队可与 Claude 在同一块白板或表格里实时协作（表格支持多 tab、公式、格式与下拉）；原 Claude Dashboards 正式更名为 Claude Data 并对付费用户全面可用，新增认证查询与实时分享（均为 beta）。 _(Anthropic)_
+
 ### 2026-11-11
 
 - **[OpenAI 推出 Businesses in ChatGPT：企业可认领资料并上线 Business Agent](https://openai.com/index/introducing-businesses-chatgpt)** — 11 月 10 日宣布 beta：企业可通过 Business Hub 认领并更新资料、上传含价格与库存的商品信息，查看提及量、网站点击等聚合洞察；合格的美国电商与在线服务商还可上线 Business Agent，与用户在独立、明确标注的对话中交流，并可作为 ChatGPT Ads 落地页。 _(OpenAI)_
@@ -81,10 +86,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[vLLM 首日支持 Kimi K3.1 Pro：稀疏注意力与跨芯片 agent 服务](https://vllm.ai/blog/2026-11-04-kimi-k31-pro)** — 11 月 4 日发布，为 Moonshot 2.8T（约 104B 激活）开放权重模型提供 Day-0 服务支持，覆盖 NVIDIA/AMD/TPU/阿里平头哥；新增 DSA 稀疏注意力、打包 KV、DCP 与 zero-mismatch RL，并给出 AgentX 吞吐数据。 _(vLLM)_
 - **[OpenAI 宣布收购 Pierre：把 Code Storage 与 Diff 能力并入 Codex](https://openai.com/index/openai-to-acquire-pierre/)** — 11 月 4 日官宣将收购 Pierre Computer Company；其 Trees/Diffs 已用于 Codex 浏览与审阅，计划将 Code Storage 的 Git 存贮与历史能力并入 Codex，开源项目继续保持开源，交易尚待监管批准。 _(OpenAI)_
 - **[GitHub Copilot 登陆 JetBrains Air：本地与云端 ACP Agent 任务](https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/)** — 11 月 3 日 Changelog 宣布 Copilot 可通过 Agent Client Protocol 在 JetBrains Air 中委派编码任务，支持 IDE 本地会话与隔离 Docker 云任务，云端用量走 Copilot 订阅而非 JetBrains AI credits。 _(GitHub)_
-
-### 2026-11-04
-
-- **[OpenAI 分享物理世界工程加速：Astra 设计整机，硬件团队用量增 23 倍](https://openai.com/index/accelerating-engineering-for-the-physical-world)** — 11 月 3 日发布，展示 GPT‑6 / Astra 在机械、电气与端到端系统设计上的进展：两名成员用 Astra 在约一周内设计出可对话 Codex 的测试设备（外壳、PCB、固件），合同制造商约一月内做出小批量原型；自 2 月起硬件团队 token 用量增长约 23 倍，并扩展与 Chip Ganassi Racing、马自达等合作。 _(OpenAI)_
 
 ---
 
