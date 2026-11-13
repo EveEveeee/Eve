@@ -48,6 +48,10 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-13
+
+- **[Google 发布 Gemini 4 Hydrogen：面向日常编码与 Agent 工作流](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/)** — 11 月 12 日宣布推出 Gemini 4 Hydrogen，定位日常编码与智能体工作流的快速执行；默认 high 思考档在 Artificial Analysis 指数上以 51 分超过 Argon 的 50 分（xhigh 可达 54），全 100 万 token 上下文统一计价为每百万输入 $1.50 / 输出 $7.50；并在 Google Antigravity 推出 Orchestrator，可在同一会话中动态切换 Carbon 与 Hydrogen，Terminal-Bench 4.0 上接近 Carbon 成功率，同时平均配额减少 24%、完成速度提升 19%。 _(Google)_
+
 ### 2026-11-12
 
 - **[Salesforce 发布 SFR-AutoR&D：自主改进生产级嵌入模型的研发 Agent](https://www.salesforce.com/news/stories/agents-that-improve-ai-models/)** — 11 月 11 日宣布一套可端到端跑研究循环的 Agent：给定目标、系统与算力预算后提出假设、实现方法并对照基线实验，仅在有证据且安全时保留改动；已用于改进 Data Cloud 所用的 SFR-Embedding V3，并在开源 EmbeddingGemma 2 上得到质量与延迟更优的 SFR-Embedding v4。 _(Salesforce)_
@@ -79,13 +83,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[商汤正式发布 SenseNova 6.8 Flash：办公智能体与动态设计](https://www.sensetime.com/en/news/sensenova-6-8-flash-release-20261103-1421)** — 11 月 5 日宣布多模态 agent 正式版，强化长期记忆与主动交互，扩展动态 PPT、SVG/Web、Three.js 与 Blender 3D 等工作流；Token Plan 提供免费试用额度。 _(商汤科技)_
 - **[AWS Bedrock AgentCore Web Answer 正式 GA](https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/)** — 11 月 5 日宣布 Web Answer 在 AgentCore 上线：一次 MCP 调用即可返回带引用的综合网页答案，支持域名白/黑名单与发布日期过滤，首发美东（弗吉尼亚）。 _(AWS)_
 - **[Thinking Machines 发布 Inkling 2 Small：594B MoE 开源路径模型](https://thinkingmachines.ai/news/inkling-2-small/)** — 11 月 5 日发布第二代 Inkling（594B 总参 / 17B 激活、支持图像与可变 effort），先经 Tinker 闭源可用，计划安全评测后以 Apache 2.0 开源权重。 _(Thinking Machines Lab)_
-
-### 2026-11-05
-
-- **[腾讯发布 Hy4：开源旗舰模型首次加入视觉理解与 computer-use](https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/)** — 11 月 4 日宣布最新一代大模型 Hy4，首次加入视觉理解与 computer-use（CLI/GUI），强化长程 agent 与指令跟随；权重与 system card 将陆续开源，已接入 TokenHub、WorkBuddy、CodeBuddy、元宝等，并称同价约每百万输入 0.90 / 输出 2.70 美元。 _(腾讯)_
-- **[vLLM 首日支持 Kimi K3.1 Pro：稀疏注意力与跨芯片 agent 服务](https://vllm.ai/blog/2026-11-04-kimi-k31-pro)** — 11 月 4 日发布，为 Moonshot 2.8T（约 104B 激活）开放权重模型提供 Day-0 服务支持，覆盖 NVIDIA/AMD/TPU/阿里平头哥；新增 DSA 稀疏注意力、打包 KV、DCP 与 zero-mismatch RL，并给出 AgentX 吞吐数据。 _(vLLM)_
-- **[OpenAI 宣布收购 Pierre：把 Code Storage 与 Diff 能力并入 Codex](https://openai.com/index/openai-to-acquire-pierre/)** — 11 月 4 日官宣将收购 Pierre Computer Company；其 Trees/Diffs 已用于 Codex 浏览与审阅，计划将 Code Storage 的 Git 存贮与历史能力并入 Codex，开源项目继续保持开源，交易尚待监管批准。 _(OpenAI)_
-- **[GitHub Copilot 登陆 JetBrains Air：本地与云端 ACP Agent 任务](https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/)** — 11 月 3 日 Changelog 宣布 Copilot 可通过 Agent Client Protocol 在 JetBrains Air 中委派编码任务，支持 IDE 本地会话与隔离 Docker 云任务，云端用量走 Copilot 订阅而非 JetBrains AI credits。 _(GitHub)_
 
 ---
 
