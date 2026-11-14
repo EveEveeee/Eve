@@ -48,6 +48,15 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-14
+
+- **[OpenAI 推出 ChatGPT Wallet：dots Agent 可代为安全付款](https://openai.com/index/introducing-chatgpt-wallet)** — 11 月 13 日宣布推出 ChatGPT Wallet，与 American Express、Mastercard、Visa 合作；Agent 通过支付网络代币完成付款、不接触真实卡号，每笔需用户核对商品、金额与所用卡片并以 Face ID 或指纹等安全校验批准。先通过 dots 向年满 18 岁、持有合格美国发行卡片的美国 ChatGPT Pro 订阅者开放，并同步发布面向商家的 Commerce Partner Playbook。 _(OpenAI)_
+- **[Sierra 发布 Personal Agent Protocol（Poppy）1.0](https://sierra.ai/blog/releasing-poppy)** — 11 月 13 日宣布协议正式到 v1.0，个人 Agent 可通过企业 Agent、网站与 API 与商家交互，主要基于 MCP、OpenAPI、UCP，并以 OAuth 授权由用户控制权限；Shopify 已为平台全部商家启用，Meta 的 Muse 会在访问站点时优先查找 Poppy，Mercury、Synchrony、Turkish Airlines 等设计伙伴已上线，另有 60 家新伙伴加入，总数超过 100 家。 _(Sierra)_
+- **[Yandex 推出 Alice AI「Do it!」：可打电话并完成日常任务](https://yandex.com/company/news/2026-11-13)** — 11 月 13 日宣布 Do it! 可将请求拆成步骤并选用工具，能代为打电话（聊天中显示实时转写）、在云端 Yandex Browser 中浏览网页并填表，并通过插件连接外卖、订花、出行、智能家居等服务；重要操作需用户批准。先向部分开通 Alice Plus 的活跃聊天用户开放，再推向全体订阅者。 _(Yandex)_
+- **[Google 向外部开放 Antigravity /teamwork 多 Agent 工作流](https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/)** — 11 月 13 日公布 /teamwork 在数学、化学、系统软件与机器学习工程上的最新协作结果，并将 /teamwork、/boost 与 Deep Review 等工具向外部研究者和开发者开放；同时开放申请，为 1 万名学术研究者提供六个月最高用量档免费使用权。 _(Google Research)_
+- **[Anthropic 推出 Claude Meetings：可加入视频会议并实时协作](https://claude.com/resources/articles/claude-meetings)** — 11 月 12 日宣布 beta 开始向 Team 与 Enterprise 计划推送：Claude 作为可见参与者加入通话，默认可书面回答问题并在许可下使用已连接工具，还能在会议中协作编写文档、白板等产物并整理笔记与待办；首发支持 Google Meet，其他会议平台即将跟进。beta 期间会议笔记与转写免费。 _(Anthropic)_
+- **[Anthropic 推出自托管 Claude Managed Agents 私有预览](https://claude.com/resources/articles/self-hosted-claude-managed-agents)** — 11 月 12 日宣布私有 beta：企业可在自有云或本地运行完整 Managed Agents 服务（含 harness、沙箱、凭证与会话历史），并自行选择将模型请求发往 Anthropic、Amazon Bedrock、Google 的 Agent Platform、Microsoft Foundry 或自有网关；需通过 Anthropic 客户团队申请开通。 _(Anthropic)_
+
 ### 2026-11-13
 
 - **[Google 发布 Gemini 4 Hydrogen：面向日常编码与 Agent 工作流](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/)** — 11 月 12 日宣布推出 Gemini 4 Hydrogen，定位日常编码与智能体工作流的快速执行；默认 high 思考档在 Artificial Analysis 指数上以 51 分超过 Argon 的 50 分（xhigh 可达 54），全 100 万 token 上下文统一计价为每百万输入 $1.50 / 输出 $7.50；并在 Google Antigravity 推出 Orchestrator，可在同一会话中动态切换 Carbon 与 Hydrogen，Terminal-Bench 4.0 上接近 Carbon 成功率，同时平均配额减少 24%、完成速度提升 19%。 _(Google)_
@@ -74,15 +83,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 ### 2026-11-08
 
 - **[Meta 推出 Muse Spaces：用描述即可生成个性化应用内体验](https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/)** — 11 月 6 日官宣在 Muse 中推出 Spaces：用户描述想法（如礼物清单、行程板或小游戏）即可生成自定义体验，可放入侧边栏或主标签并按日程切换；连接常用应用后会在后台自动更新，现已在 Muse 可用范围内上线。 _(Meta)_
-
-### 2026-11-07
-
-- **[OpenAI 发布 GPT‑6 Cyber：对齐的网络安全 agent 模型](https://openai.com/index/introducing-gpt-6-cyber)** — 11 月 5 日官宣面向授权安全研究的 GPT‑6 Cyber：ExploitGym 从 32.1% 升至 48.5%，越权攻击率大幅下降；已用于发现 Firefox 81 个高危漏洞与大量 Linux 提权路径，经 Daybreak Red 分阶段开放。 _(OpenAI)_
-- **[Meta 将 Muse Wonder 能力下放到 Muse 与 Meta AI 专用模型](https://research.meta.ai/blog/specialized-models-for-muse-and-metaai)** — 11 月 6 日宣布用 Muse Wonder 训练专用版本并上线 Muse / Meta AI：Active Memory 关键关键上下文遗忘约降至 2.4 倍，Active Focus 在突发问题上的任务完成提升约 67%。 _(Meta AI Research)_
-- **[Google DeepMind 发布 Gemini Omni 1.2 Flash：更长视频与对话式剪辑](https://deepmind.google/models/model-cards/gemini-omni-1-2-flash/)** — 11 月 5 日 model card 更新：支持从文本/图像/音视频生成带音频的高分辨率视频，并可通过多轮对话编辑；已接入 Gemini App、AI Studio、Gemini API、Vertex AI 等渠道。 _(Google DeepMind)_
-- **[商汤正式发布 SenseNova 6.8 Flash：办公智能体与动态设计](https://www.sensetime.com/en/news/sensenova-6-8-flash-release-20261103-1421)** — 11 月 5 日宣布多模态 agent 正式版，强化长期记忆与主动交互，扩展动态 PPT、SVG/Web、Three.js 与 Blender 3D 等工作流；Token Plan 提供免费试用额度。 _(商汤科技)_
-- **[AWS Bedrock AgentCore Web Answer 正式 GA](https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/)** — 11 月 5 日宣布 Web Answer 在 AgentCore 上线：一次 MCP 调用即可返回带引用的综合网页答案，支持域名白/黑名单与发布日期过滤，首发美东（弗吉尼亚）。 _(AWS)_
-- **[Thinking Machines 发布 Inkling 2 Small：594B MoE 开源路径模型](https://thinkingmachines.ai/news/inkling-2-small/)** — 11 月 5 日发布第二代 Inkling（594B 总参 / 17B 激活、支持图像与可变 effort），先经 Tinker 闭源可用，计划安全评测后以 Apache 2.0 开源权重。 _(Thinking Machines Lab)_
 
 ---
 
