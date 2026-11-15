@@ -48,6 +48,11 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-15
+
+- **[Google 将 Google Wallet 接入 Gemini：可基于消费记录提供理财洞察](https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/)** — 11 月 13 日宣布向美国所有 Gemini 应用用户推出：可在 Personal Intelligence 中连接 Google Wallet，通过 @Google Wallet 询问消费、订阅与预算等并生成动态图表；还可选经 Plaid 将信用卡和银行账户安全关联到 Wallet，以获得更深层洞察。连接为只读，Gemini 不能划转、管理或投资资金，用户可随时开关。已在网页与 Android / iOS 的 Gemini 应用推送。 _(Google)_
+- **[llama.cpp 发布 v1.0.0：本地推理库迎来首个稳定大版本](https://huggingface.co/blog/ggml-org/llama-cpp-v1)** — 11 月 13 日，llama.cpp 与底层张量库 ggml 同步发布 v1.0.0，并开始采用语义化版本：公共 C API 的不兼容变更将提升主版本号。该版本移除了已弃用的公共 API，支持 150 多种模型架构与主流推测解码方法，并可通过 Debian、Homebrew、conda-forge、Docker、Winget 等渠道分发。 _(llama.cpp / Hugging Face)_
+
 ### 2026-11-14
 
 - **[OpenAI 推出 ChatGPT Wallet：dots Agent 可代为安全付款](https://openai.com/index/introducing-chatgpt-wallet)** — 11 月 13 日宣布推出 ChatGPT Wallet，与 American Express、Mastercard、Visa 合作；Agent 通过支付网络代币完成付款、不接触真实卡号，每笔需用户核对商品、金额与所用卡片并以 Face ID 或指纹等安全校验批准。先通过 dots 向年满 18 岁、持有合格美国发行卡片的美国 ChatGPT Pro 订阅者开放，并同步发布面向商家的 Commerce Partner Playbook。 _(OpenAI)_
