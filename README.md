@@ -48,6 +48,14 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-16
+
+- **[OpenAI 推出科学博客，分享用 AI 推进科学发现的成果与方法](https://openai.com/index/our-new-blog-for-science/)** — 11 月 15 日宣布开设 OpenAI science blog，面向科学家与学术研究者，发布研究成果、模型用于科学计算 / 数据分析 / 文献与实验规划等方法实践，以及研究者的一线经验；强调会说明如何核查工作、方法在何处不足之处。 _(OpenAI)_
+- **[GPT-6 Astra 协助提出标准模型的格点定义候选方案](https://openai.com/index/step-toward-defining-the-standard-model/)** — 科学博客首篇客座文章中，加州大学圣塔芭芭拉分校物理学家、OpenAI 访问科学家 Nathaniel Craig 介绍：他此前已有思路并于 10 月发表预印本，Astra 帮助把该策略落实为构造并主导了详细证明，给出标准模型的一个非微扰格点定义候选方案。该结果仍是候选，尚非可直接用于实际模拟的方法。 _(OpenAI)_
+- **[印度芯片初创公司 Bharat Semi 获得 2400 万美元种子轮，押注 AI 图像传感器](https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/)** — 11 月 15 日报道，这家成立近五年、尚未实现收入的新德里公司完成 2400 万美元全股权种子轮，由 Info Edge Group、South Park Commons 与 Indus Bridge Ventures 领投，用于研发将成像、处理与 AI 能力集成在单芯片上的可编程图像传感器，并称相较传统分芯片方案有望将系统成本降低至少 70%。公司称已获得美国 General Atomics 与印度 Kaynes Semicon 的设计导入，传感器仍在开发中，目标 2027 年进入初始量产。 _(TechCrunch)_
+- **[Safeguard 为每个 AI Agent 配备独立工作区：日历、会议、邮箱、消息、钱包与云盘](https://safeguard.sh/resources/press/safeguard-ai-agent-workspaces-calendar-meetings-mail-messaging-wallet-drive)** — 11 月 15 日宣布，Safeguard 平台上的每个 Agent 将拥有绑定其身份的独立日历、会议席位、邮箱、消息、钱包和云盘，并适用同一套策略、审批与审计追踪，避免借用个人账号办事导致权责不清。Agent 可在允许时段内安排日程、以具名参与者加入或主持会议，并在限额与审批规则下收发邮件、消息和付款。 _(Safeguard)_
+- **[一项 API 流量统计显示：无审查模型主要用于 Agent，而非聊天角色扮演](https://huggingface.co/blog/OpenUncensored/uncensored-models-are-agent-infrastructure)** — 11 月 14 日，OpenUncensored 根据 2026 年 11 月一周、157 名付费用户向 84 个模型发出的 150,292 次请求（只记录请求方式、不记录内容）分析称：编程 Agent 占文本模型花费的 49%、请求量的 40%，其他 Agent / 自动化占花费 16%，而聊天、角色扮演和创意应用仅占花费 1.5%；典型请求约 86,612 个输入 token、仅返回 229 个输出 token，符合 Agent 循环的特征。 _(OpenUncensored / Hugging Face)_
+
 ### 2026-11-15
 
 - **[Google 将 Google Wallet 接入 Gemini：可基于消费记录提供理财洞察](https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/)** — 11 月 13 日宣布向美国所有 Gemini 应用用户推出：可在 Personal Intelligence 中连接 Google Wallet，通过 @Google Wallet 询问消费、订阅与预算等并生成动态图表；还可选经 Plaid 将信用卡和银行账户安全关联到 Wallet，以获得更深层洞察。连接为只读，Gemini 不能划转、管理或投资资金，用户可随时开关。已在网页与 Android / iOS 的 Gemini 应用推送。 _(Google)_
@@ -84,10 +92,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[ChatGPT Enterprise 登陆 AWS Marketplace](https://openai.com/index/chatgpt-enterprise-aws-marketplace)** — 11 月 9 日官宣可通过 AWS Marketplace 采购与结算 ChatGPT Enterprise（含 ChatGPT Work、Codex、dots），合格消费可计入 AWS 承诺；医疗与金融服务版亦对合格客户开放。 _(OpenAI)_
 - **[Google 发布 TPU 8tx 与 TPU 8i Max](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/)** — 11 月 9 日宣布第八代 TPU 再增两款：8tx 面向机密推理与小规模训练，8i Max 双芯片封装提升大上下文与机架算力密度；同年已累计四款 TPU 系统，并继续推进 TorchTPU 等开源栈。 _(Google)_
 - **[Delight.ai 推出 Customer Agent 与 Midas](https://www.prnewswire.com/news-releases/delightai-launches-two-new-products-to-transform-how-businesses-serve-customers-and-accelerate-growth-302933016.html)** — 11 月 9 日发布：统一购物 / 预约 / 客服 / 留存的 Delight Customer Agent，以及用自然语言自助构建、测试与改进 Agent 的 Midas。 _(Delight.ai / PR Newswire)_
-
-### 2026-11-08
-
-- **[Meta 推出 Muse Spaces：用描述即可生成个性化应用内体验](https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/)** — 11 月 6 日官宣在 Muse 中推出 Spaces：用户描述想法（如礼物清单、行程板或小游戏）即可生成自定义体验，可放入侧边栏或主标签并按日程切换；连接常用应用后会在后台自动更新，现已在 Muse 可用范围内上线。 _(Meta)_
 
 ---
 
