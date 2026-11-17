@@ -48,6 +48,13 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-17
+
+- **[阿里巴巴发布旗舰模型 Qwen4-Max：原生视觉、百万 token 上下文](https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max)** — 11 月 16 日宣布推出迄今最强的通义千问模型 Qwen4-Max，总参数 2.4 万亿、具备原生视觉能力与 100 万 token 上下文，编码、Agent 与视觉推理表现突出，在 Code Arena 排名第 6；新架构为稀疏 MoE，每 token 仅激活 710 亿参数。公司称在自有 Work360 评测上整体优于前代 Qwen3.8-Max，高推理模式下 token 用量减少 35%、单任务平均成本约降 60%。现已在 QwenCloud（Token Plan / API）以及 QwenWork、QwenStudio 上线，并表示将很快开源更小规模的 Qwen4 系列模型。 _(Alibaba Cloud)_
+- **[腾讯发布 Hy4 flash：面向日常工作流的高速低成本模型](https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/)** — 11 月 16 日宣布推出 Hy 系列最新成员 Hy4 flash，总参数 2240 亿（含 640 亿 Engram 参数）、仅激活 120 亿，支持多模态输入与最长 100 万 token 上下文；官方定价约每百万输入 $0.070、输出 $0.281、缓存输入 $0.003，解码速度超过每秒 150 token。公司称在内部 WorkIndex 上单任务成本约为 Hy4 Preview 的 1/13、Hy4 的 1/20。现已登陆腾讯云 TokenHub、WorkBuddy、元宝、企业微信、QQ、ima 和 Marvis，即日起至 11 月 30 日可在 WorkBuddy 免费使用，TokenHub 标准价五折。 _(Tencent)_
+- **[NVIDIA 推出 Nemotron for Science：用开源模型与数据帮助构建科学 Agent](https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents)** — 11 月 16 日宣布推出 Nemotron for Science，将开源模型 Nemotron 3.5 Super VL、科学评测、新的开源化学数据集 LitmusBench v0.2（近 5 万道化学推理题）以及后训练配方整合在一起，帮助研究者构建面向化学、蛋白质设计等任务的专业 Agent；模型与数据集已在 Hugging Face 上线，并针对 128GB DGX Spark 做了本地运行优化。阿贡国家实验室、于利希超算中心等机构正在将其用于科学发现 Agent。 _(NVIDIA)_
+- **[OpenAI 与四家独立评估机构签约，启动嵌入式安全评估试点](https://openai.com/index/our-first-phase-of-embedded-assessments)** — 11 月 16 日宣布与 Apollo Research、METR、Transluce 和 Goodfire 签署协议，开展第一阶段嵌入式评估：独立专家可在较长期内深入访问内部模型与系统（视评估需要可包括检查点、源代码、训练与评测数据、监测系统等），评估训练与内部使用阶段的对齐情况和安全防护效果，以补充其安全论证，并履行白宫超级智能协议中关于独立评估安全控制的承诺。目前为试点合作，尚未发布评估结论。 _(OpenAI)_
+
 ### 2026-11-16
 
 - **[OpenAI 推出科学博客，分享用 AI 推进科学发现的成果与方法](https://openai.com/index/our-new-blog-for-science/)** — 11 月 15 日宣布开设 OpenAI science blog，面向科学家与学术研究者，发布研究成果、模型用于科学计算 / 数据分析 / 文献与实验规划等方法实践，以及研究者的一线经验；强调会说明如何核查工作、方法在何处不足之处。 _(OpenAI)_
@@ -83,15 +90,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 - **[OpenAI 推出 Businesses in ChatGPT：企业可认领资料并上线 Business Agent](https://openai.com/index/introducing-businesses-chatgpt)** — 11 月 10 日宣布 beta：企业可通过 Business Hub 认领并更新资料、上传含价格与库存的商品信息，查看提及量、网站点击等聚合洞察；合格的美国电商与在线服务商还可上线 Business Agent，与用户在独立、明确标注的对话中交流，并可作为 ChatGPT Ads 落地页。 _(OpenAI)_
 - **[Google 正式开放 Gemini 4 Carbon：面向长程 Agent 与高难度技术工作](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/)** — 11 月 10 日向开发者、企业与消费者开放：强调网络安全与长程 agent 工作流；导入价与 Gemini 4 Argon 相同（每百万输入 $2 / 输出 $10），亦在 Antigravity 预览 `/swarm` 多 Agent 协作，并向 Google AI Ultra 用户在 Antigravity、Gemini App 与 Search AI Mode 等渠道推送。 _(Google)_
-
-### 2026-11-10
-
-- **[Meta 发布 Muse Ember：面向 Agent 高频子任务的轻量高效模型](https://research.meta.ai/blog/muse-ember)** — 11 月 9 日官宣 Muse Ember：面向工具调用、编码子任务、路由、抽取与长文档解析；1M 上下文、最高约 512K 输出，API 定价约每百万输入 $0.10 / 输出 $0.50；可与 Muse Wonder 搭配做规划与规模化执行。 _(Meta)_
-- **[Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2)** — 11 月 9 日升级面向高难度技术工作的模型：编码 / 推理 / 视觉更强，输出约提速 30%，标准价降至每百万输入 $8 / 输出 $40；Fable 全面可用，Mythos 限经核验的安全与生命科学组织，另有可选 fast mode。 _(Anthropic)_
-- **[Google Antigravity 上线 Knowledge Work 界面](https://9to5google.com/2026/11/09/google-antigravity-knowledge-work/)** — 11 月 9 日报道：在原有软件工程体验旁新增 Knowledge Work，面向研究、数据分析、文档 / 演示稿与日常自动化；底层 Agent 能力不变，Settings → General → Interface Layout 可切换。 _(9to5Google)_
-- **[ChatGPT Enterprise 登陆 AWS Marketplace](https://openai.com/index/chatgpt-enterprise-aws-marketplace)** — 11 月 9 日官宣可通过 AWS Marketplace 采购与结算 ChatGPT Enterprise（含 ChatGPT Work、Codex、dots），合格消费可计入 AWS 承诺；医疗与金融服务版亦对合格客户开放。 _(OpenAI)_
-- **[Google 发布 TPU 8tx 与 TPU 8i Max](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/)** — 11 月 9 日宣布第八代 TPU 再增两款：8tx 面向机密推理与小规模训练，8i Max 双芯片封装提升大上下文与机架算力密度；同年已累计四款 TPU 系统，并继续推进 TorchTPU 等开源栈。 _(Google)_
-- **[Delight.ai 推出 Customer Agent 与 Midas](https://www.prnewswire.com/news-releases/delightai-launches-two-new-products-to-transform-how-businesses-serve-customers-and-accelerate-growth-302933016.html)** — 11 月 9 日发布：统一购物 / 预约 / 客服 / 留存的 Delight Customer Agent，以及用自然语言自助构建、测试与改进 Agent 的 Midas。 _(Delight.ai / PR Newswire)_
 
 ---
 
