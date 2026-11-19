@@ -48,6 +48,13 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-19
+
+- **[Google 发布 Gemini 4 Neon：面向复杂工程、知识工作与科学工作流的快速前沿模型](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)** — 11 月 18 日宣布推出 Gemini 4 Neon，强调在复杂软件工程、知识工作与科学流程中更快完成端到端任务。在 Artificial Analysis Intelligence Index 的 xhigh 思考档位上总分为 61、整体排名第 3，并在 Vals Index 排名第 2；API 定价为每百万输入 token 3 美元（缓存输入 0.15 美元，折扣 95%）、输出 15 美元，上下文窗口 100 万 token。即日起在 Google AI Studio 的 Gemini API、Gemini for business，以及付费 Google AI Pro / Ultra 用户的 Google Antigravity 与 Gemini 应用中逐步上线。 _(Google)_
+- **[Anthropic 公布 IPO 定价：每股 83 美元，股票代码 ANT](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)** — 11 月 18 日宣布，Anthropic, PBC 的 Class A 普通股 IPO 定价为每股 83.00 美元，共发行 9.80 亿股（其中公司出售 956,351,354 股，其余 23,648,646 股由股东出售，公司不获得股东售股所得）。股票预计于 11 月 19 日在纳斯达克全球精选市场上市，代码 ANT，发行预计于 11 月 20 日交割；另给予承销商 30 天内最多加购 1.47 亿股的期权。 _(Anthropic)_
+- **[OpenAI 发布 GPT-6.2 Astra 与 Sol：提升专业任务表现并降低成本](https://openai.com/index/introducing-gpt-6-2-astra-sol)** — 11 月 17 日宣布推出面向高难度项目的前沿模型 GPT-6.2 Astra，以及面向日常工作与多步 Agent 流程的高效模型 GPT-6.2 Sol。官方称 Astra 在 Agents’ Last Exam 上比 GPT-6 Astra 高 5.2 分、单任务成本不到三分之一，并比 Claude Fable 5.2 高 5.5 分、成本约为其 5%；API 中 Astra 的输入与输出价格较 GPT-6 Astra 低 20%，为每百万输入 8 美元、缓存输入 0.40 美元、输出 40 美元，Sol 仍沿用 GPT-6.1 Sol 的 API 定价。即日起向 ChatGPT Plus、Pro、Enterprise 和 Edu 用户在 ChatGPT Work 与 Codex 中开放，开发者可通过 API 使用 `gpt-6.2-astra` 与 `gpt-6.2-sol`。 _(OpenAI)_
+- **[Microsoft 发布七款新模型：MAI Code 2 等以更低价格覆盖编码与多模态](https://microsoft.ai/news/microsoft-ignite-2026/)** — 11 月 17 日在 Ignite 上宣布推出七款新模型，强调以更低价格支撑可规模化的 Agent 工作。其中 MAI Code 2 在面向 GitHub Copilot 日常企业编码的四项基准上，编码质量约为 GPT-6.1 Sol 的 98%、价格约为其 40%，相对 Claude Opus 5.5 为 96% 性能、约 5% 价格，现已登陆 GitHub Copilot；MAI Code 2 Flash 面向高频日常改代码任务，已在 Copilot 上线，并在 Microsoft Foundry 提供有限预览。同期还有 MAI Image 2.7（Artificial Analysis 图像编辑榜第 1）等模型。 _(Microsoft AI)_
+
 ### 2026-11-17
 
 - **[阿里巴巴发布旗舰模型 Qwen4-Max：原生视觉、百万 token 上下文](https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max)** — 11 月 16 日宣布推出迄今最强的通义千问模型 Qwen4-Max，总参数 2.4 万亿、具备原生视觉能力与 100 万 token 上下文，编码、Agent 与视觉推理表现突出，在 Code Arena 排名第 6；新架构为稀疏 MoE，每 token 仅激活 710 亿参数。公司称在自有 Work360 评测上整体优于前代 Qwen3.8-Max，高推理模式下 token 用量减少 35%、单任务平均成本约降 60%。现已在 QwenCloud（Token Plan / API）以及 QwenWork、QwenStudio 上线，并表示将很快开源更小规模的 Qwen4 系列模型。 _(Alibaba Cloud)_
@@ -85,11 +92,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 - **[Salesforce 发布 SFR-AutoR&D：自主改进生产级嵌入模型的研发 Agent](https://www.salesforce.com/news/stories/agents-that-improve-ai-models/)** — 11 月 11 日宣布一套可端到端跑研究循环的 Agent：给定目标、系统与算力预算后提出假设、实现方法并对照基线实验，仅在有证据且安全时保留改动；已用于改进 Data Cloud 所用的 SFR-Embedding V3，并在开源 EmbeddingGemma 2 上得到质量与延迟更优的 SFR-Embedding v4。 _(Salesforce)_
 - **[Anthropic 推出 Claude Whiteboards、Sheets，并将 Dashboards 升级为 Claude Data](https://claude.com/resources/articles/sheets-whiteboards-data)** — 11 月 10 日宣布：Whiteboards 与 Sheets 以 beta 登陆所有付费计划，团队可与 Claude 在同一块白板或表格里实时协作（表格支持多 tab、公式、格式与下拉）；原 Claude Dashboards 正式更名为 Claude Data 并对付费用户全面可用，新增认证查询与实时分享（均为 beta）。 _(Anthropic)_
-
-### 2026-11-11
-
-- **[OpenAI 推出 Businesses in ChatGPT：企业可认领资料并上线 Business Agent](https://openai.com/index/introducing-businesses-chatgpt)** — 11 月 10 日宣布 beta：企业可通过 Business Hub 认领并更新资料、上传含价格与库存的商品信息，查看提及量、网站点击等聚合洞察；合格的美国电商与在线服务商还可上线 Business Agent，与用户在独立、明确标注的对话中交流，并可作为 ChatGPT Ads 落地页。 _(OpenAI)_
-- **[Google 正式开放 Gemini 4 Carbon：面向长程 Agent 与高难度技术工作](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/)** — 11 月 10 日向开发者、企业与消费者开放：强调网络安全与长程 agent 工作流；导入价与 Gemini 4 Argon 相同（每百万输入 $2 / 输出 $10），亦在 Antigravity 预览 `/swarm` 多 Agent 协作，并向 Google AI Ultra 用户在 Antigravity、Gemini App 与 Search AI Mode 等渠道推送。 _(Google)_
 
 ---
 
