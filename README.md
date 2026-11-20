@@ -48,6 +48,12 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-20
+
+- **[Google 通过 Gemini API 向开发者开放世界模型 Genie 4](https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/)** — 11 月 19 日宣布，继前一天发布后，Genie 4 现已通过 Gemini API（Interactions API）和 Google AI Studio 向开发者开放。开发者可用文本提示、参考图或两者生成带同步原生音频的连续 720p（24fps）世界，并用实时键盘控制与即时文本提示导航、改变天气、光照、物体或事件；由 Gemini 推理保持世界状态一致。每份输出含不可感知的 SynthID 水印。可在 Google AI Studio 试用交互画布和入门应用。 _(Google)_
+- **[OpenAI 公布 Performance Factory：用 Codex Agent 自动排查并修复性能回退](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/)** — 11 月 19 日介绍基于 Codex 的云端系统 Performance Factory，用于自动发现并修复性能问题。其中 Regression Workflow 在性能告警触发后由 Agent 调查、记录结论并提出修复方案供工程师审核，部署后再由另一个 Agent 核验是否恢复基线；该工作流运行三个多月以来，追踪了超过 1,700 次调查并定位了 600 多起根因，相当于每天约 17 次自动调查。人工复核 100 条根因建议中，70% 被评为准确。 _(OpenAI)_
+- **[AWS Marketplace 支持通过 AgentCore 让 Agent 按次付费采购](https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-agentic-payments-agentcore/)** — 11 月 19 日宣布，AWS Marketplace 现已支持通过 x402 协议进行 agentic payments：AI Agent 可发现并购买部分软件、API、数据和内容，按次以美元支付，费用记入开发者已有的 AWS 账单，无需稳定币钱包，也无需为每个卖家单独申请 API key。用户可预先设置消费限额、批准的卖家和护栏，交易可在 AWS CloudTrail 与 AWS Cost Explorer 中审计。该能力在所有已提供 AgentCore payments 的 AWS 区域可用。 _(AWS)_
+
 ### 2026-11-19
 
 - **[Google 发布 Gemini 4 Neon：面向复杂工程、知识工作与科学工作流的快速前沿模型](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)** — 11 月 18 日宣布推出 Gemini 4 Neon，强调在复杂软件工程、知识工作与科学流程中更快完成端到端任务。在 Artificial Analysis Intelligence Index 的 xhigh 思考档位上总分为 61、整体排名第 3，并在 Vals Index 排名第 2；API 定价为每百万输入 token 3 美元（缓存输入 0.15 美元，折扣 95%）、输出 15 美元，上下文窗口 100 万 token。即日起在 Google AI Studio 的 Gemini API、Gemini for business，以及付费 Google AI Pro / Ultra 用户的 Google Antigravity 与 Gemini 应用中逐步上线。 _(Google)_
@@ -87,11 +93,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 ### 2026-11-13
 
 - **[Google 发布 Gemini 4 Hydrogen：面向日常编码与 Agent 工作流](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/)** — 11 月 12 日宣布推出 Gemini 4 Hydrogen，定位日常编码与智能体工作流的快速执行；默认 high 思考档在 Artificial Analysis 指数上以 51 分超过 Argon 的 50 分（xhigh 可达 54），全 100 万 token 上下文统一计价为每百万输入 $1.50 / 输出 $7.50；并在 Google Antigravity 推出 Orchestrator，可在同一会话中动态切换 Carbon 与 Hydrogen，Terminal-Bench 4.0 上接近 Carbon 成功率，同时平均配额减少 24%、完成速度提升 19%。 _(Google)_
-
-### 2026-11-12
-
-- **[Salesforce 发布 SFR-AutoR&D：自主改进生产级嵌入模型的研发 Agent](https://www.salesforce.com/news/stories/agents-that-improve-ai-models/)** — 11 月 11 日宣布一套可端到端跑研究循环的 Agent：给定目标、系统与算力预算后提出假设、实现方法并对照基线实验，仅在有证据且安全时保留改动；已用于改进 Data Cloud 所用的 SFR-Embedding V3，并在开源 EmbeddingGemma 2 上得到质量与延迟更优的 SFR-Embedding v4。 _(Salesforce)_
-- **[Anthropic 推出 Claude Whiteboards、Sheets，并将 Dashboards 升级为 Claude Data](https://claude.com/resources/articles/sheets-whiteboards-data)** — 11 月 10 日宣布：Whiteboards 与 Sheets 以 beta 登陆所有付费计划，团队可与 Claude 在同一块白板或表格里实时协作（表格支持多 tab、公式、格式与下拉）；原 Claude Dashboards 正式更名为 Claude Data 并对付费用户全面可用，新增认证查询与实时分享（均为 beta）。 _(Anthropic)_
 
 ---
 
