@@ -48,6 +48,14 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-21
+
+- **[Google 在 Mac 版 Gemini 应用推出 Computer Use，可代为操作桌面应用和网页](https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/)** — 11 月 19 日宣布，Mac 版 Gemini 应用新增 Computer Use：用户描述任务后，Gemini 可在独立后台窗口中点击、输入、浏览菜单并填写表单，完成跨本地文件、桌面应用和网页的多步操作，主屏幕与光标不受占用；用户可选择应用权限、观看实时预览，并在关键操作前批准。即日起以英语向美国的 Google AI Plus / Pro / Ultra 个人用户推出，需搭载 Apple Silicon 且运行 macOS Sequoia 15.0 或更高版本。 _(Google)_
+- **[Gemini API 预览上线 Tool Retrieval：按需加载工具参数模式](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/)** — 11 月 19 日宣布，Tool Retrieval 已在 Gemini Interactions API 中以预览形式推出。当 Agent 连接数十甚至上百个工具时，不必在每次请求中发送完整参数 schema，而是将工具库待命、仅在当前任务需要时加载，以降低输入 token 与延迟，并在候选工具增多时保持选择准确率。启用方式为在请求中加入 `tool_search` 工具，并对暂缓加载的工具设置 `defer_loading: true`；模型仍能看到这些工具的名称与描述，需要时由 API 在同一次请求中加载完整 schema 并完成调用。该能力对 Gemini 3.6 及之后的模型（含 Gemini 4 全系列）在 Interactions API 中可用，无单独收费。 _(Google)_
+- **[Anthropic 宣布 IPO 与同步私募交割完成，合计募集约 1195 亿美元](https://www.anthropic.com/news/ipo-close)** — 11 月 20 日宣布，Anthropic, PBC 已完成首次公开发行交割：共发行 11.27 亿股 Class A 普通股，定价每股 83.00 美元，含承销商全额行使的 1.47 亿股超额配股权；其中公司出售 1,103,351,354 股，股东出售 23,648,646 股。IPO 总募集资金约 935 亿美元（公司获得约 916 亿美元，未获得股东售股所得）。股票已于 11 月 19 日在纳斯达克全球精选市场以代码 ANT 上市。同期向 AMD、Broadcom、Google、Micron、Microsoft、NVIDIA 和 TSMC Partners 私募出售 313,253,007 股 Class N 普通股，金额约 260 亿美元；IPO（含股东售股）与私募合计总募集资金约 1195 亿美元（扣除承销折扣与发行费用前）。 _(Anthropic)_
+- **[OpenAI 发布 MedChemBench：评估模型在药物化学推理中的表现](https://openai.com/index/introducing-medchembench/)** — 11 月 20 日推出包含 99 道题的评测基准 MedChemBench，考察模型能否结合分子结构与实验证据解释结果、比较化合物并预测性质。题目来自 117 篇论文和专利，覆盖 761 种不同分子结构。在 xhigh 推理档位上，GPT-6.2 Astra 获得 84.5% 的可得分数，高于 GPT-6 Astra 的 83.3%、GPT-6.1 Sol 的 82.0% 和 GPT-5.6 Sol 的 58.2%。官方同时指出，该评测基于历史证据而非真实药物发现，不能证明模型能发现新药或改善实验室决策。 _(OpenAI)_
+- **[AWS DevOps Agent 扩展聊天能力：支持 MCP 客户端与 Slack、Teams](https://aws.amazon.com/about-aws/whats-new/2026/11/devops-agent-new-chat-capabilities/)** — 11 月 20 日宣布，AWS DevOps Agent 的聊天能力现已扩展到 Kiro、Claude Code 等 MCP 客户端，以及 Slack 和 Microsoft Teams。借助 MCP，Agent 可按指令调用 GitHub、GitLab、Azure DevOps、ServiceNow 和 PagerDuty 等工具，直接在常用聊天界面完成工作流自动化。此次还支持按事故自动创建 Slack 代码频道、在 Teams 中双向聊天，并为 Agent 提供可执行脚本和访问网络的计算沙箱；用户可在所有支持的平台上重命名和归档聊天。 _(AWS)_
+
 ### 2026-11-20
 
 - **[Google 通过 Gemini API 向开发者开放世界模型 Genie 4](https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/)** — 11 月 19 日宣布，继前一天发布后，Genie 4 现已通过 Gemini API（Interactions API）和 Google AI Studio 向开发者开放。开发者可用文本提示、参考图或两者生成带同步原生音频的连续 720p（24fps）世界，并用实时键盘控制与即时文本提示导航、改变天气、光照、物体或事件；由 Gemini 推理保持世界状态一致。每份输出含不可感知的 SynthID 水印。可在 Google AI Studio 试用交互画布和入门应用。 _(Google)_
@@ -89,10 +97,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[Google 向外部开放 Antigravity /teamwork 多 Agent 工作流](https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/)** — 11 月 13 日公布 /teamwork 在数学、化学、系统软件与机器学习工程上的最新协作结果，并将 /teamwork、/boost 与 Deep Review 等工具向外部研究者和开发者开放；同时开放申请，为 1 万名学术研究者提供六个月最高用量档免费使用权。 _(Google Research)_
 - **[Anthropic 推出 Claude Meetings：可加入视频会议并实时协作](https://claude.com/resources/articles/claude-meetings)** — 11 月 12 日宣布 beta 开始向 Team 与 Enterprise 计划推送：Claude 作为可见参与者加入通话，默认可书面回答问题并在许可下使用已连接工具，还能在会议中协作编写文档、白板等产物并整理笔记与待办；首发支持 Google Meet，其他会议平台即将跟进。beta 期间会议笔记与转写免费。 _(Anthropic)_
 - **[Anthropic 推出自托管 Claude Managed Agents 私有预览](https://claude.com/resources/articles/self-hosted-claude-managed-agents)** — 11 月 12 日宣布私有 beta：企业可在自有云或本地运行完整 Managed Agents 服务（含 harness、沙箱、凭证与会话历史），并自行选择将模型请求发往 Anthropic、Amazon Bedrock、Google 的 Agent Platform、Microsoft Foundry 或自有网关；需通过 Anthropic 客户团队申请开通。 _(Anthropic)_
-
-### 2026-11-13
-
-- **[Google 发布 Gemini 4 Hydrogen：面向日常编码与 Agent 工作流](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/)** — 11 月 12 日宣布推出 Gemini 4 Hydrogen，定位日常编码与智能体工作流的快速执行；默认 high 思考档在 Artificial Analysis 指数上以 51 分超过 Argon 的 50 分（xhigh 可达 54），全 100 万 token 上下文统一计价为每百万输入 $1.50 / 输出 $7.50；并在 Google Antigravity 推出 Orchestrator，可在同一会话中动态切换 Carbon 与 Hydrogen，Terminal-Bench 4.0 上接近 Carbon 成功率，同时平均配额减少 24%、完成速度提升 19%。 _(Google)_
 
 ---
 
