@@ -48,6 +48,14 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-22
+
+- **[Lean 与 Mathlib 社区确认 Alpöge 的黎曼猜想 Lean 形式化证明正确](https://leanprover-community.github.io/blog/posts/riemann-hypothesis/)** — 11 月 21 日，Lean 与 Mathlib 社区发表联合声明（获 Lean FRO 与 Mathlib Initiative 背书）：对 Levent Alpöge 于 11 月 20 日发布、约 1700 万行的黎曼猜想 Lean 证明库有充分信心，认定其正确。社区已核验该库可正确编译、所证定理与 Mathlib 中的 RiemannHypothesis 陈述一致，并由 Lean 官方内核及多个独立证明检查器验证导出证明有效。Alpöge 此前表示该证明在 Claude 协助下完成，可读性写作成稿仍待后续。 _(Lean / Mathlib Community)_
+- **[OpenAI 公布对抗性蒸馏防护：GPT-6.2 受保护推理提取成功率降至 0.2%](https://openai.com/index/combatting-adversarial-distillation/)** — 11 月 20 日发布，介绍如何检测并阻断未经授权的对抗性蒸馏，并加强对受保护推理（思维链）的防护。在内部自适应红队评估中，从更早一次请求中恢复受保护推理的平均攻击成功率，从 GPT-6 Astra 原有防护下的 54.0%，降至 GPT-6.2 Astra 更新防护后的 0.2%。OpenAI 称新防护将推理与对话前缀绑定，并结合对抗测试、模型训练、分类器与 API 层保护。 _(OpenAI)_
+- **[METR 发布 2026 年四季能力更新：前沿模型 50% 时间跨度约 40 小时](https://metr.org/blog/2026-11-20-q4-2026-capability-update/)** — 11 月 20 日公布对公开模型（截至 GPT-6 Astra 与 Opus 5.5）的评测。在合并的 TH1.1 与 TH2 任务集上，50% 时间跨度约每 3.6 个月翻倍；GPT-6 Astra 为 40 小时（95% 置信区间 13–2645 小时），Opus 5.5 为 39 小时（12–1253 小时）。报告同时指出，在缺少清晰经验反馈的判断类任务上，模型仍弱于人类专家，且对是否会在未来数年出现剧烈的 AI 研发加速仍有较大不确定性。 _(METR)_
+- **[AWS Quick 推出网页版：浏览器中可创建并调度同一套 Agent 与技能](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-launches-new-web-experience-updated-browser-extension-microsoft-365-add-ins/)** — 11 月 21 日宣布，AWS Quick 网页应用将桌面端体验带到浏览器，可创建、分享并使用与桌面相同的 Agent、技能和连接器；对话、Agent 与文件在网页、桌面和移动端同步，从网页启动或调度的 Agent 在关闭浏览器后仍会继续运行，并可在 Mission Control 查看进度与待确认事项。同时更新了浏览器扩展，以及面向 Word、Excel、PowerPoint 和 Outlook 的 Microsoft 365 加载项。已在美东（弗吉尼亚北部）、美西（俄勒冈）、欧洲（法兰克福、爱尔兰、伦敦）和亚太（悉尼、东京）等区域上线。 _(AWS)_
+- **[Amazon Bedrock Web Search 新增五门语言并支持按国家偏向检索](https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/)** — 11 月 21 日宣布，用于为 Agent 和应用提供带引用的即时网页信息的 Web Search，现已在 Amazon Bedrock AgentCore 与 Amazon Bedrock 上新增西班牙语、法语、德语、意大利语和日语，以及非美国英语支持，结果可来自当地语言来源。同时新增可选的国家字段，传入 ISO 3166-1 alpha-2 代码（如 JP、DE）即可偏向特定国家的来源。现有客户自动获得新语言能力、无需改代码，各语言定价相同；查询在调用区域处理。 _(AWS)_
+
 ### 2026-11-21
 
 - **[Google 在 Mac 版 Gemini 应用推出 Computer Use，可代为操作桌面应用和网页](https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/)** — 11 月 19 日宣布，Mac 版 Gemini 应用新增 Computer Use：用户描述任务后，Gemini 可在独立后台窗口中点击、输入、浏览菜单并填写表单，完成跨本地文件、桌面应用和网页的多步操作，主屏幕与光标不受占用；用户可选择应用权限、观看实时预览，并在关键操作前批准。即日起以英语向美国的 Google AI Plus / Pro / Ultra 个人用户推出，需搭载 Apple Silicon 且运行 macOS Sequoia 15.0 或更高版本。 _(Google)_
@@ -88,15 +96,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 - **[Google 将 Google Wallet 接入 Gemini：可基于消费记录提供理财洞察](https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/)** — 11 月 13 日宣布向美国所有 Gemini 应用用户推出：可在 Personal Intelligence 中连接 Google Wallet，通过 @Google Wallet 询问消费、订阅与预算等并生成动态图表；还可选经 Plaid 将信用卡和银行账户安全关联到 Wallet，以获得更深层洞察。连接为只读，Gemini 不能划转、管理或投资资金，用户可随时开关。已在网页与 Android / iOS 的 Gemini 应用推送。 _(Google)_
 - **[llama.cpp 发布 v1.0.0：本地推理库迎来首个稳定大版本](https://huggingface.co/blog/ggml-org/llama-cpp-v1)** — 11 月 13 日，llama.cpp 与底层张量库 ggml 同步发布 v1.0.0，并开始采用语义化版本：公共 C API 的不兼容变更将提升主版本号。该版本移除了已弃用的公共 API，支持 150 多种模型架构与主流推测解码方法，并可通过 Debian、Homebrew、conda-forge、Docker、Winget 等渠道分发。 _(llama.cpp / Hugging Face)_
-
-### 2026-11-14
-
-- **[OpenAI 推出 ChatGPT Wallet：dots Agent 可代为安全付款](https://openai.com/index/introducing-chatgpt-wallet)** — 11 月 13 日宣布推出 ChatGPT Wallet，与 American Express、Mastercard、Visa 合作；Agent 通过支付网络代币完成付款、不接触真实卡号，每笔需用户核对商品、金额与所用卡片并以 Face ID 或指纹等安全校验批准。先通过 dots 向年满 18 岁、持有合格美国发行卡片的美国 ChatGPT Pro 订阅者开放，并同步发布面向商家的 Commerce Partner Playbook。 _(OpenAI)_
-- **[Sierra 发布 Personal Agent Protocol（Poppy）1.0](https://sierra.ai/blog/releasing-poppy)** — 11 月 13 日宣布协议正式到 v1.0，个人 Agent 可通过企业 Agent、网站与 API 与商家交互，主要基于 MCP、OpenAPI、UCP，并以 OAuth 授权由用户控制权限；Shopify 已为平台全部商家启用，Meta 的 Muse 会在访问站点时优先查找 Poppy，Mercury、Synchrony、Turkish Airlines 等设计伙伴已上线，另有 60 家新伙伴加入，总数超过 100 家。 _(Sierra)_
-- **[Yandex 推出 Alice AI「Do it!」：可打电话并完成日常任务](https://yandex.com/company/news/2026-11-13)** — 11 月 13 日宣布 Do it! 可将请求拆成步骤并选用工具，能代为打电话（聊天中显示实时转写）、在云端 Yandex Browser 中浏览网页并填表，并通过插件连接外卖、订花、出行、智能家居等服务；重要操作需用户批准。先向部分开通 Alice Plus 的活跃聊天用户开放，再推向全体订阅者。 _(Yandex)_
-- **[Google 向外部开放 Antigravity /teamwork 多 Agent 工作流](https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/)** — 11 月 13 日公布 /teamwork 在数学、化学、系统软件与机器学习工程上的最新协作结果，并将 /teamwork、/boost 与 Deep Review 等工具向外部研究者和开发者开放；同时开放申请，为 1 万名学术研究者提供六个月最高用量档免费使用权。 _(Google Research)_
-- **[Anthropic 推出 Claude Meetings：可加入视频会议并实时协作](https://claude.com/resources/articles/claude-meetings)** — 11 月 12 日宣布 beta 开始向 Team 与 Enterprise 计划推送：Claude 作为可见参与者加入通话，默认可书面回答问题并在许可下使用已连接工具，还能在会议中协作编写文档、白板等产物并整理笔记与待办；首发支持 Google Meet，其他会议平台即将跟进。beta 期间会议笔记与转写免费。 _(Anthropic)_
-- **[Anthropic 推出自托管 Claude Managed Agents 私有预览](https://claude.com/resources/articles/self-hosted-claude-managed-agents)** — 11 月 12 日宣布私有 beta：企业可在自有云或本地运行完整 Managed Agents 服务（含 harness、沙箱、凭证与会话历史），并自行选择将模型请求发往 Anthropic、Amazon Bedrock、Google 的 Agent Platform、Microsoft Foundry 或自有网关；需通过 Anthropic 客户团队申请开通。 _(Anthropic)_
 
 ---
 
