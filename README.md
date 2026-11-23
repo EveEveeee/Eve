@@ -48,6 +48,15 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-23
+
+- **[OpenAI 首席科学家提议以困惑度为共同指标，并为前沿模型开发设定行业上限](https://openai.com/index/perplexity-and-intelligence/)** — 11 月 22 日，OpenAI 首席科学家 Jakub Pachocki 发表文章，主张将困惑度（或等价的交叉熵损失）作为比较各实验室预训练进展、并据此制定共享安全标准的共同指标，同时公布了公司内部的困惑度测量：GPT-3.5 约为 0.99、GPT-4 约为 0.91，当前损失已低于 0.8，并在网络安全和数学等领域出现变革性能力。他预计进入约 0.68–0.7 的对数困惑度区间时还会出现新的变革性能力，并提议各前沿模型开发者共同承诺：在对模型行为的理解和监测达到具体里程碑（例如开发出思维链监测的后继方案）之前，不以困惑度等关键指标越过约定上限。 _(OpenAI)_
+- **[印度 Sarvam 发布开源权重模型 Sarvam-105B-1711，面向客服、语音与 Agent 任务](https://www.sarvam.ai/blogs/sarvam-105b-1711)** — 11 月 22 日，Sarvam AI 发布 Sarvam 105B 的新开源权重点，基于升级后的 B200 基础设施训练，定位为面向客服、语音 Agent 和工具调用等大规模任务的 Flash-Lite 模型。与 2 月版本相比，八项对话式 Agent 基准的平均分从 42.6 升至 73.9，混合定价由每百万 token 0.44 美元降至 0.15 美元；权重已在 Hugging Face 提供 BF16 以及约 65GB、可在单张工作站 GPU 上运行的 NVFP4 版本。 _(Sarvam AI)_
+- **[蚂蚁集团领投中国具身智能公司至简动力 1 亿美元 Pre-A 轮，估值 16 亿美元](https://news.bloomberglaw.com/capital-markets/ant-group-bets-on-simplexity-to-thrive-in-chinas-humanoid-race)** — 11 月 22 日，Bloomberg 报道，杭州具身智能创业公司至简动力（Simplexity Robotics）完成 1 亿美元 Pre-A 轮融资，由马云支持的蚂蚁集团领投，投后估值 16 亿美元；阿里巴巴、腾讯、红杉中国（HongShan Capital）和蓝驰创投等现有投资方跟投。董事长兼联合创始人王凯向 Bloomberg 证实了本轮估值与投资方信息。 _(Bloomberg)_
+- **[AWS Quick 支持以插件一次性打包 Agent、技能、连接器与流程](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-plugins-bundle-agents-skills-connectors-flows/)** — 11 月 21 日宣布，AWS Quick 新增插件（plugins），可将面向特定任务、角色或场景的 Agent、技能、连接器和流程打包，用户一次安装即可获得完成该工作所需的能力。用户可浏览并安装 AWS 官方插件（如日程与会议助手、销售开发插件），目前有 100 多项技能和插件覆盖日常效率、财务营销法务等岗位及常用商务应用；也可在对话中描述工作内容，让 Quick 组装自定义插件并分享给团队。该能力已在所有提供 AWS Quick 的区域上线。 _(AWS)_
+- **[Google 向印度理工学院卡拉格普尔分校提供 500 万美元，用于 AI 研究与人才培养](https://blog.google/intl/en-in/company-news/supporting-ai-research-and-talent-development-with-iit-kharagpur/)** — 11 月 21 日，Google 印度团队宣布向 IIT Kharagpur 提供 500 万美元资金，支持其推进高级 AI 研究并培养科学与技术人才。资金将用于三个方向：面向印度语言、材料科学、农业和教育科技等实际问题的 AI 研究；面向学生、教师和师资的 AI 培训与课程建设；以及提升校园 AI 框架与工具能力。 _(Google)_
+- **[联合国常规武器公约会议未能就自主武器达成具有法律约束力的谈判授权](https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse)** — 11 月 21 日，《卫报》报道，在日内瓦举行的联合国《特定常规武器公约》（CCW）会议经过通宵谈判，未能就制定具有法律约束力的自主武器国际条约达成谈判授权。由于该论坛需 128 个缔约方协商一致，会议最终通过较弱授权，要求各国“以协商一致方式拟订”一项可能不具法律义务的文书；报道称俄罗斯以拖延策略带头反对，美国等一些投入 AI 作战的军事大国也不愿承诺有约束力的议定书。 _(The Guardian)_
+
 ### 2026-11-22
 
 - **[Lean 与 Mathlib 社区确认 Alpöge 的黎曼猜想 Lean 形式化证明正确](https://leanprover-community.github.io/blog/posts/riemann-hypothesis/)** — 11 月 21 日，Lean 与 Mathlib 社区发表联合声明（获 Lean FRO 与 Mathlib Initiative 背书）：对 Levent Alpöge 于 11 月 20 日发布、约 1700 万行的黎曼猜想 Lean 证明库有充分信心，认定其正确。社区已核验该库可正确编译、所证定理与 Mathlib 中的 RiemannHypothesis 陈述一致，并由 Lean 官方内核及多个独立证明检查器验证导出证明有效。Alpöge 此前表示该证明在 Claude 协助下完成，可读性写作成稿仍待后续。 _(Lean / Mathlib Community)_
@@ -91,11 +100,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[印度芯片初创公司 Bharat Semi 获得 2400 万美元种子轮，押注 AI 图像传感器](https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/)** — 11 月 15 日报道，这家成立近五年、尚未实现收入的新德里公司完成 2400 万美元全股权种子轮，由 Info Edge Group、South Park Commons 与 Indus Bridge Ventures 领投，用于研发将成像、处理与 AI 能力集成在单芯片上的可编程图像传感器，并称相较传统分芯片方案有望将系统成本降低至少 70%。公司称已获得美国 General Atomics 与印度 Kaynes Semicon 的设计导入，传感器仍在开发中，目标 2027 年进入初始量产。 _(TechCrunch)_
 - **[Safeguard 为每个 AI Agent 配备独立工作区：日历、会议、邮箱、消息、钱包与云盘](https://safeguard.sh/resources/press/safeguard-ai-agent-workspaces-calendar-meetings-mail-messaging-wallet-drive)** — 11 月 15 日宣布，Safeguard 平台上的每个 Agent 将拥有绑定其身份的独立日历、会议席位、邮箱、消息、钱包和云盘，并适用同一套策略、审批与审计追踪，避免借用个人账号办事导致权责不清。Agent 可在允许时段内安排日程、以具名参与者加入或主持会议，并在限额与审批规则下收发邮件、消息和付款。 _(Safeguard)_
 - **[一项 API 流量统计显示：无审查模型主要用于 Agent，而非聊天角色扮演](https://huggingface.co/blog/OpenUncensored/uncensored-models-are-agent-infrastructure)** — 11 月 14 日，OpenUncensored 根据 2026 年 11 月一周、157 名付费用户向 84 个模型发出的 150,292 次请求（只记录请求方式、不记录内容）分析称：编程 Agent 占文本模型花费的 49%、请求量的 40%，其他 Agent / 自动化占花费 16%，而聊天、角色扮演和创意应用仅占花费 1.5%；典型请求约 86,612 个输入 token、仅返回 229 个输出 token，符合 Agent 循环的特征。 _(OpenUncensored / Hugging Face)_
-
-### 2026-11-15
-
-- **[Google 将 Google Wallet 接入 Gemini：可基于消费记录提供理财洞察](https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/)** — 11 月 13 日宣布向美国所有 Gemini 应用用户推出：可在 Personal Intelligence 中连接 Google Wallet，通过 @Google Wallet 询问消费、订阅与预算等并生成动态图表；还可选经 Plaid 将信用卡和银行账户安全关联到 Wallet，以获得更深层洞察。连接为只读，Gemini 不能划转、管理或投资资金，用户可随时开关。已在网页与 Android / iOS 的 Gemini 应用推送。 _(Google)_
-- **[llama.cpp 发布 v1.0.0：本地推理库迎来首个稳定大版本](https://huggingface.co/blog/ggml-org/llama-cpp-v1)** — 11 月 13 日，llama.cpp 与底层张量库 ggml 同步发布 v1.0.0，并开始采用语义化版本：公共 C API 的不兼容变更将提升主版本号。该版本移除了已弃用的公共 API，支持 150 多种模型架构与主流推测解码方法，并可通过 Debian、Homebrew、conda-forge、Docker、Winget 等渠道分发。 _(llama.cpp / Hugging Face)_
 
 ---
 
