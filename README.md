@@ -48,6 +48,13 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-24
+
+- **[智谱发布旗舰模型 GLM-5.4：首个 Loop Transformer，宣称智能水平可比 2 万亿至 3 万亿参数模型](https://z.ai/blog/glm-5.4)** — 11 月 23 日，智谱（Z.ai）发布首款采用 Loop Transformer 架构的旗舰模型 GLM-5.4：在约 7500 亿参数规模上，将 GLM-5 基座中的 28 层循环执行两次，以加深推理而不增加参数，官方称其智能水平可与 2 万亿至 3 万亿参数级模型相比。公司称非高峰推理速度最高约每秒 200 token、高峰负载下维持每秒 70 至 80 token；现已在 GLM Coding Plan、ZCode 和 Z.ai Chat 提供，API 将在安全评估后开放，并计划在完成安全加固后开源权重。 _(Z.ai)_
+- **[OpenAI 与思科联合推出开源运行时 Shirudo，可在不停机的情况下为 Linux 系统加临时防护](https://openai.com/index/introducing-shirudo)** — 11 月 23 日，OpenAI 与思科发布开源项目 Shirudo（日语「盾」）：基于 eBPF，帮助安全团队在正式补丁上线前，为正在运行的 Linux 系统部署经测试的临时防护（shield），无需重启服务。在一次受控测试中，由 Codex 生成的 shield 在 Elasticsearch 服务保持运行的情况下阻断了 Java4Shell 利用尝试。Shield 在加载前需经密码学签名与校验，并可用 TPM 记录防护的加载与移除；智能体可协助研判漏洞、编写并验证 shield，但部署仍由安全人员批准。 _(OpenAI)_
+- **[亚马逊签约收购 Decart 优化栈技术并引入其创始团队，以提升自研芯片与推理效率](https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization)** — 11 月 23 日，亚马逊宣布已签署协议，收购 Decart Optimization Stack（DOS）的专有技术，并引入联合创始人 Dean Leitersdorf、Moshe Shalev、Orian Leitersdorf 及其 AI 研究与工程团队。亚马逊称自 2025 年起双方已在 Trainium 上合作，该技术将用于进一步优化推理与自研芯片性能，使客户能以更低成本更快地训练和运行模型；交易尚待包括监管批准在内的交割条件完成。 _(Amazon)_
+- **[Gemini API 上线文件切片控制，可按需加载文档、表格与音视频片段](https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/)** — 11 月 23 日，Google 宣布 Gemini API 新增原生文件切片控制，开发者可指定只需模型查看的页面、表格单元格区域或音视频片段，由服务端完成切片、渲染和分词，并且只为实际检视的部分计费。同时新增对 Microsoft Office 与 OpenDocument 格式的原生上传；Agent 也可在函数返回中直接指定要检视的文件片段。该能力面向所有 Gemini 4 模型，在 Google AI Studio 和 Gemini 平台提供。 _(Google)_
+
 ### 2026-11-23
 
 - **[OpenAI 首席科学家提议以困惑度为共同指标，并为前沿模型开发设定行业上限](https://openai.com/index/perplexity-and-intelligence/)** — 11 月 22 日，OpenAI 首席科学家 Jakub Pachocki 发表文章，主张将困惑度（或等价的交叉熵损失）作为比较各实验室预训练进展、并据此制定共享安全标准的共同指标，同时公布了公司内部的困惑度测量：GPT-3.5 约为 0.99、GPT-4 约为 0.91，当前损失已低于 0.8，并在网络安全和数学等领域出现变革性能力。他预计进入约 0.68–0.7 的对数困惑度区间时还会出现新的变革性能力，并提议各前沿模型开发者共同承诺：在对模型行为的理解和监测达到具体里程碑（例如开发出思维链监测的后继方案）之前，不以困惑度等关键指标越过约定上限。 _(OpenAI)_
@@ -85,21 +92,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[Anthropic 公布 IPO 定价：每股 83 美元，股票代码 ANT](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)** — 11 月 18 日宣布，Anthropic, PBC 的 Class A 普通股 IPO 定价为每股 83.00 美元，共发行 9.80 亿股（其中公司出售 956,351,354 股，其余 23,648,646 股由股东出售，公司不获得股东售股所得）。股票预计于 11 月 19 日在纳斯达克全球精选市场上市，代码 ANT，发行预计于 11 月 20 日交割；另给予承销商 30 天内最多加购 1.47 亿股的期权。 _(Anthropic)_
 - **[OpenAI 发布 GPT-6.2 Astra 与 Sol：提升专业任务表现并降低成本](https://openai.com/index/introducing-gpt-6-2-astra-sol)** — 11 月 17 日宣布推出面向高难度项目的前沿模型 GPT-6.2 Astra，以及面向日常工作与多步 Agent 流程的高效模型 GPT-6.2 Sol。官方称 Astra 在 Agents’ Last Exam 上比 GPT-6 Astra 高 5.2 分、单任务成本不到三分之一，并比 Claude Fable 5.2 高 5.5 分、成本约为其 5%；API 中 Astra 的输入与输出价格较 GPT-6 Astra 低 20%，为每百万输入 8 美元、缓存输入 0.40 美元、输出 40 美元，Sol 仍沿用 GPT-6.1 Sol 的 API 定价。即日起向 ChatGPT Plus、Pro、Enterprise 和 Edu 用户在 ChatGPT Work 与 Codex 中开放，开发者可通过 API 使用 `gpt-6.2-astra` 与 `gpt-6.2-sol`。 _(OpenAI)_
 - **[Microsoft 发布七款新模型：MAI Code 2 等以更低价格覆盖编码与多模态](https://microsoft.ai/news/microsoft-ignite-2026/)** — 11 月 17 日在 Ignite 上宣布推出七款新模型，强调以更低价格支撑可规模化的 Agent 工作。其中 MAI Code 2 在面向 GitHub Copilot 日常企业编码的四项基准上，编码质量约为 GPT-6.1 Sol 的 98%、价格约为其 40%，相对 Claude Opus 5.5 为 96% 性能、约 5% 价格，现已登陆 GitHub Copilot；MAI Code 2 Flash 面向高频日常改代码任务，已在 Copilot 上线，并在 Microsoft Foundry 提供有限预览。同期还有 MAI Image 2.7（Artificial Analysis 图像编辑榜第 1）等模型。 _(Microsoft AI)_
-
-### 2026-11-17
-
-- **[阿里巴巴发布旗舰模型 Qwen4-Max：原生视觉、百万 token 上下文](https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max)** — 11 月 16 日宣布推出迄今最强的通义千问模型 Qwen4-Max，总参数 2.4 万亿、具备原生视觉能力与 100 万 token 上下文，编码、Agent 与视觉推理表现突出，在 Code Arena 排名第 6；新架构为稀疏 MoE，每 token 仅激活 710 亿参数。公司称在自有 Work360 评测上整体优于前代 Qwen3.8-Max，高推理模式下 token 用量减少 35%、单任务平均成本约降 60%。现已在 QwenCloud（Token Plan / API）以及 QwenWork、QwenStudio 上线，并表示将很快开源更小规模的 Qwen4 系列模型。 _(Alibaba Cloud)_
-- **[腾讯发布 Hy4 flash：面向日常工作流的高速低成本模型](https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/)** — 11 月 16 日宣布推出 Hy 系列最新成员 Hy4 flash，总参数 2240 亿（含 640 亿 Engram 参数）、仅激活 120 亿，支持多模态输入与最长 100 万 token 上下文；官方定价约每百万输入 $0.070、输出 $0.281、缓存输入 $0.003，解码速度超过每秒 150 token。公司称在内部 WorkIndex 上单任务成本约为 Hy4 Preview 的 1/13、Hy4 的 1/20。现已登陆腾讯云 TokenHub、WorkBuddy、元宝、企业微信、QQ、ima 和 Marvis，即日起至 11 月 30 日可在 WorkBuddy 免费使用，TokenHub 标准价五折。 _(Tencent)_
-- **[NVIDIA 推出 Nemotron for Science：用开源模型与数据帮助构建科学 Agent](https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents)** — 11 月 16 日宣布推出 Nemotron for Science，将开源模型 Nemotron 3.5 Super VL、科学评测、新的开源化学数据集 LitmusBench v0.2（近 5 万道化学推理题）以及后训练配方整合在一起，帮助研究者构建面向化学、蛋白质设计等任务的专业 Agent；模型与数据集已在 Hugging Face 上线，并针对 128GB DGX Spark 做了本地运行优化。阿贡国家实验室、于利希超算中心等机构正在将其用于科学发现 Agent。 _(NVIDIA)_
-- **[OpenAI 与四家独立评估机构签约，启动嵌入式安全评估试点](https://openai.com/index/our-first-phase-of-embedded-assessments)** — 11 月 16 日宣布与 Apollo Research、METR、Transluce 和 Goodfire 签署协议，开展第一阶段嵌入式评估：独立专家可在较长期内深入访问内部模型与系统（视评估需要可包括检查点、源代码、训练与评测数据、监测系统等），评估训练与内部使用阶段的对齐情况和安全防护效果，以补充其安全论证，并履行白宫超级智能协议中关于独立评估安全控制的承诺。目前为试点合作，尚未发布评估结论。 _(OpenAI)_
-
-### 2026-11-16
-
-- **[OpenAI 推出科学博客，分享用 AI 推进科学发现的成果与方法](https://openai.com/index/our-new-blog-for-science/)** — 11 月 15 日宣布开设 OpenAI science blog，面向科学家与学术研究者，发布研究成果、模型用于科学计算 / 数据分析 / 文献与实验规划等方法实践，以及研究者的一线经验；强调会说明如何核查工作、方法在何处不足之处。 _(OpenAI)_
-- **[GPT-6 Astra 协助提出标准模型的格点定义候选方案](https://openai.com/index/step-toward-defining-the-standard-model/)** — 科学博客首篇客座文章中，加州大学圣塔芭芭拉分校物理学家、OpenAI 访问科学家 Nathaniel Craig 介绍：他此前已有思路并于 10 月发表预印本，Astra 帮助把该策略落实为构造并主导了详细证明，给出标准模型的一个非微扰格点定义候选方案。该结果仍是候选，尚非可直接用于实际模拟的方法。 _(OpenAI)_
-- **[印度芯片初创公司 Bharat Semi 获得 2400 万美元种子轮，押注 AI 图像传感器](https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/)** — 11 月 15 日报道，这家成立近五年、尚未实现收入的新德里公司完成 2400 万美元全股权种子轮，由 Info Edge Group、South Park Commons 与 Indus Bridge Ventures 领投，用于研发将成像、处理与 AI 能力集成在单芯片上的可编程图像传感器，并称相较传统分芯片方案有望将系统成本降低至少 70%。公司称已获得美国 General Atomics 与印度 Kaynes Semicon 的设计导入，传感器仍在开发中，目标 2027 年进入初始量产。 _(TechCrunch)_
-- **[Safeguard 为每个 AI Agent 配备独立工作区：日历、会议、邮箱、消息、钱包与云盘](https://safeguard.sh/resources/press/safeguard-ai-agent-workspaces-calendar-meetings-mail-messaging-wallet-drive)** — 11 月 15 日宣布，Safeguard 平台上的每个 Agent 将拥有绑定其身份的独立日历、会议席位、邮箱、消息、钱包和云盘，并适用同一套策略、审批与审计追踪，避免借用个人账号办事导致权责不清。Agent 可在允许时段内安排日程、以具名参与者加入或主持会议，并在限额与审批规则下收发邮件、消息和付款。 _(Safeguard)_
-- **[一项 API 流量统计显示：无审查模型主要用于 Agent，而非聊天角色扮演](https://huggingface.co/blog/OpenUncensored/uncensored-models-are-agent-infrastructure)** — 11 月 14 日，OpenUncensored 根据 2026 年 11 月一周、157 名付费用户向 84 个模型发出的 150,292 次请求（只记录请求方式、不记录内容）分析称：编程 Agent 占文本模型花费的 49%、请求量的 40%，其他 Agent / 自动化占花费 16%，而聊天、角色扮演和创意应用仅占花费 1.5%；典型请求约 86,612 个输入 token、仅返回 229 个输出 token，符合 Agent 循环的特征。 _(OpenUncensored / Hugging Face)_
 
 ---
 
