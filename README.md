@@ -48,6 +48,14 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-25
+
+- **[Meta 个人 AI 智能体 Muse 登陆英国，可代为完成购物与出行等任务](https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/)** — 11 月 23 日，Meta 宣布其个人 AI 智能体 Muse 在英国上线：18 岁及以上用户可通过 iOS、Android、muse.ai 和 WhatsApp 免费使用（另有可选订阅）。Muse 由 Meta Superintelligence Labs 首款面向真实 agent 任务的模型 Muse Spark 驱动，可在用户批准后发送邮件、下单或规划行程，且无法查看密码或银行卡信息；每位用户的 Muse 拥有独立的云端虚拟电脑，登录与信息不与 Meta 其他服务混用。上线同时接入 Marks & Spencer、ASOS、Currys、easyJet、Jet2 等英国品牌与零售商，结账可使用 Stripe 的 Onelink 或 Shopify 的 Shop Pay。 _(Meta)_
+- **[Anthropic 推出 Claude Ship：可按仓库策略自动完成 PR 审查、修复与批准](https://claude.com/resources/articles/introducing-claude-ship)** — 11 月 23 日，Anthropic 发布 Claude Ship（目前为 beta）：由已正式可用的 Code Review，以及仍处 beta 的 PR Steward 与 Claude Approvals 组成，可对 GitHub 仓库中的拉取请求进行审查、修复失败检查与冲突，并按仓库内的策略文件决定哪些变更可由 Claude 批准。开发者可在 Claude Code 中使用 `/ship` 命令；管理员也可按仓库开启并设置审查深度与支出上限。该能力面向 Claude Team 与 Enterprise 计划，符合条件的 Enterprise 组织可在 2027 年 1 月 15 日前领取至少 1 万美元额度（须在领取后 30 天内使用）；启用 Zero Data Retention、HIPAA 配置或客户托管加密密钥的组织暂不可用。 _(Anthropic)_
+- **[Cognition 发布 SWE-2.1：编码与网络安全能力提升，并推出 10 倍速 Ultrafast 版本](https://cognition.com/blog/swe-2-1)** — 11 月 24 日，Cognition 发布 SWE-2.1，该模型在 Kimi K3 上以纯强化学习训练，是对 SWE-2 的重大升级。官方评测中，Terminal-Bench 4.1 由 24.2 升至 50.0，FrontierCode 2.0 由 24.1 升至 41.3；在网络安全方面，ExploitBench 达到 80%，ExploitGym 上按既定漏洞利用路径捕获 flag 的成功率为 27.3%。公司同时为 Devin Security 推出防护更宽松的 SWE-2.1 Cyber，并与 Cerebras 合作发布同模型的 SWE-2.1 Ultrafast，官方称推理速度约为原来的 10 倍。 _(Cognition)_
+- **[Google DeepMind 用 Gemini 4 智能体团队改进量子算法，聚变模拟计算成本降低 11.8 倍](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/)** — 11 月 23 日，Google DeepMind 与 Google Quantum AI 合作发表研究：由多支独立的 Gemini 4 智能体团队改进已知量子算法，并用 Lean 形式化验证每项结果；各团队每 4 小时在虚拟会议中交流比较方案。在惯性约束聚变的一项关键计算上，智能体将综合量子比特与操作次数的计算成本降低 11.8 倍，所需纠错量子比特内存由 5,650 个降至 4,338 个。官方同时开源 Lean 库、问题规格与已验证解，并指出这些算法在科学模拟中仍可能超出首批纠错量子计算机的资源能力。 _(Google DeepMind)_
+- **[蚂蚁 inclusionAI 开源 Ling-3.2-air：1240 亿总参数原生多模态 MoE，工作流自动化得分大幅提升](https://huggingface.co/inclusionAI/Ling-3.2-air)** — 11 月 24 日，蚂蚁集团 inclusionAI 发布开源权重模型 Ling-3.2-air，沿用 Ling-3.0-flash-VL 的原生多模态架构，支持文本、图像与视频输入，采用混合线性 MoE，总参数 1240 亿、每个 token 激活 55 亿参数。与上一代相比，AutomationBench-AA 由 15.7% 升至 61%，专业文档任务 GDP.pdf 全通过率由 8.4% 升至 16%，AA-Briefcase v1.1 的 Elo 由 987 升至 1340，Terminal-Bench 4.0 通过率由 0% 升至 27%。官方推荐以 256K 上下文部署，并提供 SGLang 与 vLLM 的推理方案。 _(inclusionAI / Hugging Face)_
+
 ### 2026-11-24
 
 - **[智谱发布旗舰模型 GLM-5.4：首个 Loop Transformer，宣称智能水平可比 2 万亿至 3 万亿参数模型](https://z.ai/blog/glm-5.4)** — 11 月 23 日，智谱（Z.ai）发布首款采用 Loop Transformer 架构的旗舰模型 GLM-5.4：在约 7500 亿参数规模上，将 GLM-5 基座中的 28 层循环执行两次，以加深推理而不增加参数，官方称其智能水平可与 2 万亿至 3 万亿参数级模型相比。公司称非高峰推理速度最高约每秒 200 token、高峰负载下维持每秒 70 至 80 token；现已在 GLM Coding Plan、ZCode 和 Z.ai Chat 提供，API 将在安全评估后开放，并计划在完成安全加固后开源权重。 _(Z.ai)_
