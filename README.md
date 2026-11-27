@@ -48,6 +48,10 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-27
+
+- **[蚂蚁 inclusionAI 开源 Ming-Image-0.2-Design：6B 设计向文生图模型，公开权重居开源榜首位](https://huggingface.co/inclusionAI/Ming-Image-0.2-Design)** — 11 月 25 日，蚂蚁集团 inclusionAI 在 Hugging Face 开源升级版文生图模型 Ming-Image-0.2-Design（MIT 许可）：DiT 参数量 60 亿，官方称在复杂构图、光影与文字渲染上有所提升，可用于电商主图、UI 设计稿与空间效果图；网页设计场景下可与 Ling-3.2-flash 配合，将设计概念做成可交互页面。模型卡显示，截至 11 月 25 日，该模型在 Artificial Analysis 的 AA-Image-T2I v2.1 榜单上位列开源权重模型第 1；官方推荐默认生成 2048×2048，并在单张 80 GiB 显存的 CUDA GPU 上完成验证。 _(inclusionAI / Hugging Face)_
+
 ### 2026-11-25
 
 - **[Meta 个人 AI 智能体 Muse 登陆英国，可代为完成购物与出行等任务](https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/)** — 11 月 23 日，Meta 宣布其个人 AI 智能体 Muse 在英国上线：18 岁及以上用户可通过 iOS、Android、muse.ai 和 WhatsApp 免费使用（另有可选订阅）。Muse 由 Meta Superintelligence Labs 首款面向真实 agent 任务的模型 Muse Spark 驱动，可在用户批准后发送邮件、下单或规划行程，且无法查看密码或银行卡信息；每位用户的 Muse 拥有独立的云端虚拟电脑，登录与信息不与 Meta 其他服务混用。上线同时接入 Marks & Spencer、ASOS、Currys、easyJet、Jet2 等英国品牌与零售商，结账可使用 Stripe 的 Onelink 或 Shopify 的 Shop Pay。 _(Meta)_
@@ -93,13 +97,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[Google 通过 Gemini API 向开发者开放世界模型 Genie 4](https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/)** — 11 月 19 日宣布，继前一天发布后，Genie 4 现已通过 Gemini API（Interactions API）和 Google AI Studio 向开发者开放。开发者可用文本提示、参考图或两者生成带同步原生音频的连续 720p（24fps）世界，并用实时键盘控制与即时文本提示导航、改变天气、光照、物体或事件；由 Gemini 推理保持世界状态一致。每份输出含不可感知的 SynthID 水印。可在 Google AI Studio 试用交互画布和入门应用。 _(Google)_
 - **[OpenAI 公布 Performance Factory：用 Codex Agent 自动排查并修复性能回退](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/)** — 11 月 19 日介绍基于 Codex 的云端系统 Performance Factory，用于自动发现并修复性能问题。其中 Regression Workflow 在性能告警触发后由 Agent 调查、记录结论并提出修复方案供工程师审核，部署后再由另一个 Agent 核验是否恢复基线；该工作流运行三个多月以来，追踪了超过 1,700 次调查并定位了 600 多起根因，相当于每天约 17 次自动调查。人工复核 100 条根因建议中，70% 被评为准确。 _(OpenAI)_
 - **[AWS Marketplace 支持通过 AgentCore 让 Agent 按次付费采购](https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-agentic-payments-agentcore/)** — 11 月 19 日宣布，AWS Marketplace 现已支持通过 x402 协议进行 agentic payments：AI Agent 可发现并购买部分软件、API、数据和内容，按次以美元支付，费用记入开发者已有的 AWS 账单，无需稳定币钱包，也无需为每个卖家单独申请 API key。用户可预先设置消费限额、批准的卖家和护栏，交易可在 AWS CloudTrail 与 AWS Cost Explorer 中审计。该能力在所有已提供 AgentCore payments 的 AWS 区域可用。 _(AWS)_
-
-### 2026-11-19
-
-- **[Google 发布 Gemini 4 Neon：面向复杂工程、知识工作与科学工作流的快速前沿模型](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)** — 11 月 18 日宣布推出 Gemini 4 Neon，强调在复杂软件工程、知识工作与科学流程中更快完成端到端任务。在 Artificial Analysis Intelligence Index 的 xhigh 思考档位上总分为 61、整体排名第 3，并在 Vals Index 排名第 2；API 定价为每百万输入 token 3 美元（缓存输入 0.15 美元，折扣 95%）、输出 15 美元，上下文窗口 100 万 token。即日起在 Google AI Studio 的 Gemini API、Gemini for business，以及付费 Google AI Pro / Ultra 用户的 Google Antigravity 与 Gemini 应用中逐步上线。 _(Google)_
-- **[Anthropic 公布 IPO 定价：每股 83 美元，股票代码 ANT](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)** — 11 月 18 日宣布，Anthropic, PBC 的 Class A 普通股 IPO 定价为每股 83.00 美元，共发行 9.80 亿股（其中公司出售 956,351,354 股，其余 23,648,646 股由股东出售，公司不获得股东售股所得）。股票预计于 11 月 19 日在纳斯达克全球精选市场上市，代码 ANT，发行预计于 11 月 20 日交割；另给予承销商 30 天内最多加购 1.47 亿股的期权。 _(Anthropic)_
-- **[OpenAI 发布 GPT-6.2 Astra 与 Sol：提升专业任务表现并降低成本](https://openai.com/index/introducing-gpt-6-2-astra-sol)** — 11 月 17 日宣布推出面向高难度项目的前沿模型 GPT-6.2 Astra，以及面向日常工作与多步 Agent 流程的高效模型 GPT-6.2 Sol。官方称 Astra 在 Agents’ Last Exam 上比 GPT-6 Astra 高 5.2 分、单任务成本不到三分之一，并比 Claude Fable 5.2 高 5.5 分、成本约为其 5%；API 中 Astra 的输入与输出价格较 GPT-6 Astra 低 20%，为每百万输入 8 美元、缓存输入 0.40 美元、输出 40 美元，Sol 仍沿用 GPT-6.1 Sol 的 API 定价。即日起向 ChatGPT Plus、Pro、Enterprise 和 Edu 用户在 ChatGPT Work 与 Codex 中开放，开发者可通过 API 使用 `gpt-6.2-astra` 与 `gpt-6.2-sol`。 _(OpenAI)_
-- **[Microsoft 发布七款新模型：MAI Code 2 等以更低价格覆盖编码与多模态](https://microsoft.ai/news/microsoft-ignite-2026/)** — 11 月 17 日在 Ignite 上宣布推出七款新模型，强调以更低价格支撑可规模化的 Agent 工作。其中 MAI Code 2 在面向 GitHub Copilot 日常企业编码的四项基准上，编码质量约为 GPT-6.1 Sol 的 98%、价格约为其 40%，相对 Claude Opus 5.5 为 96% 性能、约 5% 价格，现已登陆 GitHub Copilot；MAI Code 2 Flash 面向高频日常改代码任务，已在 Copilot 上线，并在 Microsoft Foundry 提供有限预览。同期还有 MAI Image 2.7（Artificial Analysis 图像编辑榜第 1）等模型。 _(Microsoft AI)_
 
 ---
 
