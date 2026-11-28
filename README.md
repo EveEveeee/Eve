@@ -48,6 +48,14 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 
 每日精选 AI 产品 / 模型 / Agent 动态（自动更新）。
 
+### 2026-11-28
+
+- **[OpenAI 在加州联邦法院反诉苹果，指控其窃取商业秘密并施压硬件供应商](https://www.reuters.com/5f374b32b07b/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/)** — 11 月 27 日，OpenAI 在加州联邦法院提起反诉，指控苹果窃取其商业秘密，并劝阻硬件供应商参与 OpenAI 未来设备的合作；此事发生在苹果今年 7 月起诉 OpenAI 及前苹果员工 Tang Tan、Chang Liu，指控其盗用苹果商业秘密以助力消费级硬件业务之后。OpenAI 称，苹果重新聘用了一名曾在 OpenAI 工作六个月、接触过新设备信息与未来硬件路线图的前雇员，并据此获取了机密信息；苹果否认利用该员工获取 OpenAI 机密，也否认试图抑制 AI 设备制造领域的竞争，并表示 OpenAI 的反诉是在转移对其原起诉的注意力。 _(Reuters)_
+- **[OpenAI 修正 GPT-6.2 计费错误：同样用量将更快用尽 Astra 与 Sol 的套餐额度](https://x.com/thsottiaux/status/2125784147889393806)** — 11 月 26 日，OpenAI 的 Thibault Sottiaux（Tibo）在 X 上表示，GPT-6.2 发布时出现计费错误，导致大多数用户的 GPT-6.2 Astra 与 Sol 用量被低估。该公司称现已修复，与此前一周相比，完成同样工作将分别提前约 40%（Astra）和 25%（Sol）触及套餐上限，但仍应比 GPT-6 Astra 和 GPT-6.1 Sol 更耐用；其他模型不受影响，也不会补收此前差额。作为致歉，OpenAI 将为 Go、Plus、Pro 和 Business 用户各增加一次已存储的用量重置（banked reset）。 _(OpenAI)_
+- **[Amazon Neptune 推出 Graph Sessions：面向 Agent 的小型图可按需伸缩，空闲后缩至零](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-neptune-graph-sessions-generally-available/)** — 11 月 27 日，AWS 宣布 Amazon Neptune 新增 Graph Sessions 计算模式：可按 Agent、用户或任务单独建图，而不必支付预置图 16 m-NCU 的最低容量。创建时可选择 4 或 8 s-NCU 作为起始工作内存，并预留最多两倍的内存余量，按实际占用内存计费；图在空闲 15 分钟后自动缩至零，下次查询可在数秒内恢复，数据予以保留。该能力可通过 AWS 管理控制台、CLI 或 SDK 创建，并使用 openCypher 查询，适用于 GraphRAG 助手、AI Agent 与按用户分析等场景。 _(AWS)_
+- **[NVIDIA 为 Nemotron 3.5 Parse 开源训练数据并推出 DFlash2，单并发吞吐最高提升 7.62 倍](https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin)** — 11 月 26 日，NVIDIA 在 Nemotron 3.5 Parse 文档解析模型发布后，进一步开源三类合成训练数据：Synthetic Charts V1（998 万条）、Synthetic Tables V1（100 万条）和 OCR Synthetic Multilingual v2（790 万条），并公布监督微调后再用可验证奖励强化学习（RLVR / GRPO）的训练方法。官方同时推出 DFlash2 推测解码：在单张 H200、BF16、原生单次解析的测试中，相较关闭推测解码的 Parse 3.5，并发为 1 时吞吐提升 7.62 倍，并发为 512 时提升 1.52 倍（20.44 页/秒，约为 Parse 2.0 的 6.86 倍）。 _(NVIDIA / Hugging Face)_
+- **[Fin Voice 引入全双工语音模型 GPT-Live，通话可边说边听，满意度与首响速度提升](https://fin.ai/blog/more-natural-conversations-fin-voice)** — 11 月 27 日，客服产品 Fin Voice 宣布改用全双工语音架构，并与 OpenAI 合作接入其全双工语音模型 GPT-Live：Fin 自有模型负责检索知识、遵循业务指引并决定如何回复，语音模型负责实时对话表达，可在说话的同时继续倾听，以处理停顿、插话和简短应答。官方称，在数万通客服电话的 A/B 测试中，平均客户满意度由 3.42 升至 4.21（满分 5 分，提升 23%），接通后中位首次响应时间由 1.97 秒降至 1.30 秒（加快 34%）；此外由 GPT-Live 同时完成听写与转写，以减少将背景噪音误识别为语音、以及转写与实际听到内容不一致的情况。 _(Fin)_
+
 ### 2026-11-27
 
 - **[蚂蚁 inclusionAI 开源 Ming-Image-0.2-Design：6B 设计向文生图模型，公开权重居开源榜首位](https://huggingface.co/inclusionAI/Ming-Image-0.2-Design)** — 11 月 25 日，蚂蚁集团 inclusionAI 在 Hugging Face 开源升级版文生图模型 Ming-Image-0.2-Design（MIT 许可）：DiT 参数量 60 亿，官方称在复杂构图、光影与文字渲染上有所提升，可用于电商主图、UI 设计稿与空间效果图；网页设计场景下可与 Ling-3.2-flash 配合，将设计概念做成可交互页面。模型卡显示，截至 11 月 25 日，该模型在 Artificial Analysis 的 AA-Image-T2I v2.1 榜单上位列开源权重模型第 1；官方推荐默认生成 2048×2048，并在单张 80 GiB 显存的 CUDA GPU 上完成验证。 _(inclusionAI / Hugging Face)_
@@ -91,12 +99,6 @@ Projects, product experiments, and contributions to more reliable AI workflows.
 - **[Anthropic 宣布 IPO 与同步私募交割完成，合计募集约 1195 亿美元](https://www.anthropic.com/news/ipo-close)** — 11 月 20 日宣布，Anthropic, PBC 已完成首次公开发行交割：共发行 11.27 亿股 Class A 普通股，定价每股 83.00 美元，含承销商全额行使的 1.47 亿股超额配股权；其中公司出售 1,103,351,354 股，股东出售 23,648,646 股。IPO 总募集资金约 935 亿美元（公司获得约 916 亿美元，未获得股东售股所得）。股票已于 11 月 19 日在纳斯达克全球精选市场以代码 ANT 上市。同期向 AMD、Broadcom、Google、Micron、Microsoft、NVIDIA 和 TSMC Partners 私募出售 313,253,007 股 Class N 普通股，金额约 260 亿美元；IPO（含股东售股）与私募合计总募集资金约 1195 亿美元（扣除承销折扣与发行费用前）。 _(Anthropic)_
 - **[OpenAI 发布 MedChemBench：评估模型在药物化学推理中的表现](https://openai.com/index/introducing-medchembench/)** — 11 月 20 日推出包含 99 道题的评测基准 MedChemBench，考察模型能否结合分子结构与实验证据解释结果、比较化合物并预测性质。题目来自 117 篇论文和专利，覆盖 761 种不同分子结构。在 xhigh 推理档位上，GPT-6.2 Astra 获得 84.5% 的可得分数，高于 GPT-6 Astra 的 83.3%、GPT-6.1 Sol 的 82.0% 和 GPT-5.6 Sol 的 58.2%。官方同时指出，该评测基于历史证据而非真实药物发现，不能证明模型能发现新药或改善实验室决策。 _(OpenAI)_
 - **[AWS DevOps Agent 扩展聊天能力：支持 MCP 客户端与 Slack、Teams](https://aws.amazon.com/about-aws/whats-new/2026/11/devops-agent-new-chat-capabilities/)** — 11 月 20 日宣布，AWS DevOps Agent 的聊天能力现已扩展到 Kiro、Claude Code 等 MCP 客户端，以及 Slack 和 Microsoft Teams。借助 MCP，Agent 可按指令调用 GitHub、GitLab、Azure DevOps、ServiceNow 和 PagerDuty 等工具，直接在常用聊天界面完成工作流自动化。此次还支持按事故自动创建 Slack 代码频道、在 Teams 中双向聊天，并为 Agent 提供可执行脚本和访问网络的计算沙箱；用户可在所有支持的平台上重命名和归档聊天。 _(AWS)_
-
-### 2026-11-20
-
-- **[Google 通过 Gemini API 向开发者开放世界模型 Genie 4](https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/)** — 11 月 19 日宣布，继前一天发布后，Genie 4 现已通过 Gemini API（Interactions API）和 Google AI Studio 向开发者开放。开发者可用文本提示、参考图或两者生成带同步原生音频的连续 720p（24fps）世界，并用实时键盘控制与即时文本提示导航、改变天气、光照、物体或事件；由 Gemini 推理保持世界状态一致。每份输出含不可感知的 SynthID 水印。可在 Google AI Studio 试用交互画布和入门应用。 _(Google)_
-- **[OpenAI 公布 Performance Factory：用 Codex Agent 自动排查并修复性能回退](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/)** — 11 月 19 日介绍基于 Codex 的云端系统 Performance Factory，用于自动发现并修复性能问题。其中 Regression Workflow 在性能告警触发后由 Agent 调查、记录结论并提出修复方案供工程师审核，部署后再由另一个 Agent 核验是否恢复基线；该工作流运行三个多月以来，追踪了超过 1,700 次调查并定位了 600 多起根因，相当于每天约 17 次自动调查。人工复核 100 条根因建议中，70% 被评为准确。 _(OpenAI)_
-- **[AWS Marketplace 支持通过 AgentCore 让 Agent 按次付费采购](https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-agentic-payments-agentcore/)** — 11 月 19 日宣布，AWS Marketplace 现已支持通过 x402 协议进行 agentic payments：AI Agent 可发现并购买部分软件、API、数据和内容，按次以美元支付，费用记入开发者已有的 AWS 账单，无需稳定币钱包，也无需为每个卖家单独申请 API key。用户可预先设置消费限额、批准的卖家和护栏，交易可在 AWS CloudTrail 与 AWS Cost Explorer 中审计。该能力在所有已提供 AgentCore payments 的 AWS 区域可用。 _(AWS)_
 
 ---
 
